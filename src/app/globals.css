@@ -19,6 +19,9 @@
   --positive: #34c98a;
   --positive-bg: #16271f;
   --positive-border: #234a36;
+  --neutral: #7c8a9e;
+  --neutral-bg: #1c2128;
+  --neutral-border: #323a47;
   --mixed: #e0b341;
   --mixed-bg: #2a2415;
   --mixed-border: #4a3f1f;
@@ -41,6 +44,9 @@
   --color-positive: var(--positive);
   --color-positive-bg: var(--positive-bg);
   --color-positive-border: var(--positive-border);
+  --color-neutral: var(--neutral);
+  --color-neutral-bg: var(--neutral-bg);
+  --color-neutral-border: var(--neutral-border);
   --color-mixed: var(--mixed);
   --color-mixed-bg: var(--mixed-bg);
   --color-mixed-border: var(--mixed-border);
