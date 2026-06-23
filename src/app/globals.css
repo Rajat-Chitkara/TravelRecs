@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
+/*
+ * TravelRecs is always-dark by design (matches the product mockups), not a
+ * light/dark toggle, so these tokens are defined once on :root rather than
+ * behind a prefers-color-scheme query.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --surface: #141414;
+  --surface-raised: #1a1a1a;
+  --surface-border: #2a2a2a;
+  --foreground: #f2f2f2;
+  --muted: #9a9a9a;
+  --muted-2: #6b6b6b;
+  --accent: #ef6c3f;
+  --accent-foreground: #fff5ef;
+
+  --positive: #34c98a;
+  --positive-bg: #16271f;
+  --positive-border: #234a36;
+  --mixed: #e0b341;
+  --mixed-bg: #2a2415;
+  --mixed-border: #4a3f1f;
+  --negative: #e0607a;
+  --negative-bg: #2a1820;
+  --negative-border: #4a2530;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-border: var(--surface-border);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-2: var(--muted-2);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-positive: var(--positive);
+  --color-positive-bg: var(--positive-bg);
+  --color-positive-border: var(--positive-border);
+  --color-mixed: var(--mixed);
+  --color-mixed-bg: var(--mixed-bg);
+  --color-mixed-border: var(--mixed-border);
+  --color-negative: var(--negative);
+  --color-negative-bg: var(--negative-bg);
+  --color-negative-border: var(--negative-border);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

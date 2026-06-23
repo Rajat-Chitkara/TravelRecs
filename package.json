@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "pull-data": "tsx scripts/pull-data.ts",
+    "aggregate": "tsx scripts/aggregate.ts",
+    "enrich": "tsx scripts/enrich.ts",
+    "validate": "tsx scripts/validate.ts"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -21,6 +27,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.22.4",
+    "typescript": "^5",
+    "vitest": "^4.1.9",
+    "zod": "^4.4.3"
   }
 }
