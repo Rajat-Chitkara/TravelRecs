@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Stage 2 enrichment scratch work (batch payloads/prompts/responses) —
+# intermediate only, the merged output lives in data/enriched/
+/scripts/.enrich-work/

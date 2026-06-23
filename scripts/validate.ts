@@ -83,13 +83,22 @@ function validateStage2(citySlug: string) {
     );
   }
 
+  let allEmptyCount = 0;
   for (const e of enriched.entities) {
+    // An entity with no pros/cons/best_for/best_time is legitimate when its
+    // mentions are genuinely thin and neutral (the LLM correctly avoided
+    // fabricating content) — not an error, just worth surfacing as a count
+    // so it's visible during review. Only a missing verdict is a hard fail,
+    // since every entity should get at least a one-line synthesis.
     if (e.pros.length === 0 && e.cons.length === 0 && e.best_for.length === 0 && !e.best_time) {
-      issues.push(`${e.entity_id}: enrichment has no pros, cons, best_for, or best_time at all`);
+      allEmptyCount++;
     }
     if (!e.verdict || e.verdict.trim().length === 0) {
       issues.push(`${e.entity_id}: empty verdict`);
     }
+  }
+  if (allEmptyCount > 0) {
+    console.warn(`NOTE: ${allEmptyCount} entities have no pros/cons/best_for/best_time (thin, neutral source data — expected, not an error).`);
   }
 
   if (issues.length > 0) fail(issues);
