@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-23T00:00:00.000Z",
+  "cities": [
+    {
+      "slug": "tokyo",
+      "display_name": "Tokyo",
+      "status": "active",
+      "icon": "/icons/tokyo.svg",
+      "place_count": 154,
+      "country": "Japan"
+    },
+    {
+      "slug": "paris",
+      "display_name": "Paris",
+      "status": "coming_soon",
+      "icon": "/icons/paris.svg",
+      "place_count": null,
+      "country": "France"
+    },
+    {
+      "slug": "rome",
+      "display_name": "Rome",
+      "status": "coming_soon",
+      "icon": "/icons/rome.svg",
+      "place_count": null,
+      "country": "Italy"
+    },
+    {
+      "slug": "bangkok",
+      "display_name": "Bangkok",
+      "status": "coming_soon",
+      "icon": "/icons/bangkok.svg",
+      "place_count": null,
+      "country": "Thailand"
+    },
+    {
+      "slug": "lisbon",
+      "display_name": "Lisbon",
+      "status": "coming_soon",
+      "icon": "/icons/lisbon.svg",
+      "place_count": null,
+      "country": "Portugal"
+    },
+    {
+      "slug": "istanbul",
+      "display_name": "Istanbul",
+      "status": "coming_soon",
+      "icon": "/icons/istanbul.svg",
+      "place_count": null,
+      "country": "Turkey"
+    }
+  ]
+}

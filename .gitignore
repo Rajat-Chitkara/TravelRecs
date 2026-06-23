@@ -43,3 +43,7 @@ next-env.d.ts
 # Stage 2 enrichment scratch work (batch payloads/prompts/responses) —
 # intermediate only, the merged output lives in data/enriched/
 /scripts/.enrich-work/
+
+# ad-hoc dev screenshots (scripts/.screenshot.mjs is a kept dev tool, its
+# output images are not)
+/scripts/.screenshot*.png
