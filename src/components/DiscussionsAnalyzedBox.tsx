@@ -8,9 +8,17 @@ export function DiscussionsAnalyzedBox({
   totalThreadCount: number;
 }) {
   return (
-    <div className="rounded-xl border border-surface-border bg-surface/60 p-5">
-      <div className="text-xs font-medium uppercase tracking-wide text-muted-2">
-        Discussions analyzed
+    <div className="rounded-xl border border-surface-border bg-surface p-5 shadow-sm">
+      <div className="flex items-center gap-2">
+        <span
+          className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[9px] font-bold text-white"
+          style={{ backgroundColor: "#ff4500" }}
+        >
+          r/
+        </span>
+        <span className="text-xs font-semibold uppercase tracking-wide text-muted">
+          Discussions analyzed
+        </span>
       </div>
       <ul className="mt-3 space-y-2">
         {threads.map((t) => (
@@ -19,17 +27,25 @@ export function DiscussionsAnalyzedBox({
               href={t.thread_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground hover:text-accent"
+              className="text-foreground transition-colors hover:text-accent"
             >
-              <span className="text-muted">r/{t.subreddit}:</span>{" "}
+              <span className="font-medium text-accent">r/{t.subreddit}:</span>{" "}
               {t.thread_title}
             </a>
           </li>
         ))}
       </ul>
-      <p className="mt-3 text-xs text-muted-2">
-        Showing {threads.length} of {totalThreadCount} source threads
-      </p>
+      <div className="mt-4 flex items-center justify-between">
+        <p className="text-xs text-muted-2">
+          Showing {threads.length} of {totalThreadCount} source threads
+        </p>
+        <a
+          href="#"
+          className="text-xs font-medium text-accent transition-colors hover:text-accent/80"
+        >
+          View all discussions →
+        </a>
+      </div>
     </div>
   );
 }

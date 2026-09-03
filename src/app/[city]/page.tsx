@@ -3,7 +3,6 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { ComingSoonState } from "@/components/ComingSoonState";
 import { DestinationExplorer } from "@/components/DestinationExplorer";
 import { DiscussionsAnalyzedBox } from "@/components/DiscussionsAnalyzedBox";
-import { Logo } from "@/components/Logo";
 import { getCityBySlug, loadCities } from "@/lib/cities";
 import { loadCityEntities } from "@/lib/entities";
 import { formatDateRange, formatNumber } from "@/lib/format";
@@ -24,27 +23,28 @@ export default async function DestinationPage({
   if (!city) notFound();
 
   return (
-    <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-10 sm:px-6">
-      <div className="mb-8 flex items-center justify-between">
-        <Logo />
-      </div>
-
-      <Breadcrumb
-        items={[{ label: "Destination page", href: "/" }, { label: city.display_name }]}
-      />
-
-      {city.status === "coming_soon" ? (
-        <div className="mt-6">
-          <h1 className="font-mono text-3xl font-semibold text-foreground">
-            Top {city.display_name} Attractions
-          </h1>
-          <div className="mt-8">
-            <ComingSoonState city={city} />
-          </div>
+    <main className="flex-1">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+        {/* Breadcrumb */}
+        <div className="mb-6">
+          <Breadcrumb
+            items={[{ label: "Destinations", href: "/" }, { label: city.display_name }]}
+          />
         </div>
-      ) : (
-        <ActiveCityContent citySlug={city.slug} cityName={city.display_name} />
-      )}
+
+        {city.status === "coming_soon" ? (
+          <>
+            <h1 className="font-mono text-3xl font-semibold text-foreground">
+              Top {city.display_name} Attractions
+            </h1>
+            <div className="mt-8">
+              <ComingSoonState city={city} />
+            </div>
+          </>
+        ) : (
+          <ActiveCityContent citySlug={city.slug} cityName={city.display_name} />
+        )}
+      </div>
     </main>
   );
 }
@@ -53,28 +53,33 @@ function ActiveCityContent({ citySlug, cityName }: { citySlug: string; cityName:
   const data = loadCityEntities(citySlug);
   if (!data) notFound();
 
-  const eligible = data.entities;
   const topThreads = topThreadsByScore(citySlug, 3);
 
   return (
-    <div className="mt-6 space-y-8">
+    <div className="space-y-6">
+      {/* Page header */}
       <div>
         <h1 className="font-mono text-3xl font-semibold text-foreground">
           Top {cityName} Attractions
         </h1>
-        <p className="mt-2 text-sm text-muted">
+        <p className="mt-1 text-sm text-muted">
           Based on reviews from{" "}
           <span className="font-medium text-foreground">
             {formatNumber(data.unique_commenters)}
           </span>{" "}
-          Reddit users &middot;{" "}
-          {formatDateRange(data.date_range.earliest, data.date_range.latest)}
+          Reddit users · {formatDateRange(data.date_range.earliest, data.date_range.latest)}
         </p>
       </div>
 
+      {/* Discussions analyzed */}
       <DiscussionsAnalyzedBox threads={topThreads} totalThreadCount={data.total_threads} />
 
-      <DestinationExplorer citySlug={citySlug} entities={eligible} />
+      {/* Split panel — left list + sticky right detail */}
+      <DestinationExplorer
+        citySlug={citySlug}
+        cityName={cityName}
+        entities={data.entities}
+      />
     </div>
   );
 }

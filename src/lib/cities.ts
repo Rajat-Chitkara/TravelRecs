@@ -4,12 +4,8 @@ import type { CitiesRegistry, City } from "@/types";
 
 const CITIES_PATH = path.join(process.cwd(), "data", "cities.json");
 
-let cache: CitiesRegistry | null = null;
-
 function readRegistry(): CitiesRegistry {
-  if (cache) return cache;
-  cache = JSON.parse(fs.readFileSync(CITIES_PATH, "utf-8")) as CitiesRegistry;
-  return cache;
+  return JSON.parse(fs.readFileSync(CITIES_PATH, "utf-8")) as CitiesRegistry;
 }
 
 export function loadCities(): City[] {

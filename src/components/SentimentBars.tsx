@@ -1,31 +1,33 @@
 import type { SentimentCounts } from "@/types";
 
-const ROWS: { key: keyof SentimentCounts; label: string; barColor: string; textColor: string }[] = [
-  { key: "positive", label: "Positive", barColor: "bg-positive", textColor: "text-positive" },
-  { key: "neutral", label: "Neutral", barColor: "bg-neutral", textColor: "text-neutral" },
-  { key: "mixed", label: "Mixed", barColor: "bg-mixed", textColor: "text-mixed" },
-  { key: "negative", label: "Negative", barColor: "bg-negative", textColor: "text-negative" },
+const ROWS: { key: keyof SentimentCounts; label: string; emoji: string; color: string }[] = [
+  { key: "positive", label: "Positive", emoji: "👍", color: "#10b981" },
+  { key: "neutral",  label: "Neutral",  emoji: "😐", color: "#94a3b8" },
+  { key: "mixed",    label: "Mixed",    emoji: "🤔", color: "#fbbf24" },
+  { key: "negative", label: "Negative", emoji: "👎", color: "#f87171" },
 ];
 
 export function SentimentBars({ counts }: { counts: SentimentCounts }) {
-  const total = counts.positive + counts.neutral + counts.mixed + counts.negative;
-  const visibleRows = ROWS.filter((r) => counts[r.key] > 0);
+  const maxCount = Math.max(counts.positive, counts.neutral, counts.mixed, counts.negative, 1);
+  const visible = ROWS.filter((r) => counts[r.key] > 0);
 
   return (
-    <div className="space-y-2">
-      {visibleRows.map((row) => {
-        const count = counts[row.key];
-        const pct = total > 0 ? (count / total) * 100 : 0;
-        return (
-          <div key={row.key} className="flex items-center gap-3 text-xs">
-            <span className={`w-6 text-right font-mono ${row.textColor}`}>{count}</span>
-            <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-border">
-              <div className={`h-full rounded-full ${row.barColor}`} style={{ width: `${pct}%` }} />
-            </div>
-            <span className="w-14 text-muted-2">{row.label}</span>
+    <div className="space-y-3">
+      {visible.map(({ key, label, emoji, color }) => (
+        <div key={key} className="flex items-center gap-3">
+          <span className="w-5 shrink-0 text-center text-base leading-none">{emoji}</span>
+          <span className="w-8 shrink-0 text-sm font-bold tabular-nums" style={{ color }}>
+            {counts[key]}
+          </span>
+          <div className="flex-1 overflow-hidden rounded-full bg-surface-border" style={{ height: "10px" }}>
+            <div
+              className="h-full rounded-full transition-all"
+              style={{ width: `${(counts[key] / maxCount) * 100}%`, backgroundColor: color }}
+            />
           </div>
-        );
-      })}
+          <span className="w-16 shrink-0 text-xs text-muted-2">{label}</span>
+        </div>
+      ))}
     </div>
   );
 }

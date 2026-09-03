@@ -3,7 +3,7 @@ import type { City } from "@/types";
 
 export function ComingSoonState({ city }: { city: City }) {
   return (
-    <div className="rounded-xl border border-dashed border-surface-border bg-surface/40 px-8 py-16 text-center">
+    <div className="rounded-xl border border-dashed border-surface-border bg-surface px-8 py-16 text-center">
       <h2 className="font-mono text-2xl font-semibold text-foreground">
         {city.display_name} is coming soon
       </h2>

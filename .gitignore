@@ -47,3 +47,6 @@ next-env.d.ts
 # ad-hoc dev screenshots (scripts/.screenshot.mjs is a kept dev tool, its
 # output images are not)
 /scripts/.screenshot*.png
+
+# root-level dev screenshots
+/screenshot-*.png

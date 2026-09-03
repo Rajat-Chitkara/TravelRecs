@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 import {
-  bestForOptions,
   crowdSignalCoverage,
   DEFAULT_FILTERS,
   filterEntities,
@@ -51,10 +50,11 @@ describe("matchesFilters", () => {
     expect(matchesFilters(entity({}), DEFAULT_FILTERS)).toBe(true);
   });
 
-  it("filters by best_for", () => {
-    const e = entity({ best_for: ["Foodies"] });
-    expect(matchesFilters(e, { ...DEFAULT_FILTERS, bestFor: "Foodies" })).toBe(true);
-    expect(matchesFilters(e, { ...DEFAULT_FILTERS, bestFor: "Families" })).toBe(false);
+  it("filters by name search (case-insensitive substring)", () => {
+    const e = entity({ entity_normalized: "Senso-ji Temple" });
+    expect(matchesFilters(e, { ...DEFAULT_FILTERS, search: "senso" })).toBe(true);
+    expect(matchesFilters(e, { ...DEFAULT_FILTERS, search: "Shibuya" })).toBe(false);
+    expect(matchesFilters(e, { ...DEFAULT_FILTERS, search: "" })).toBe(true);
   });
 
   it("filters by minimum score", () => {
@@ -82,12 +82,12 @@ describe("matchesFilters", () => {
   });
 
   it("combines multiple filter criteria with AND semantics", () => {
-    const e = entity({ top_score: 9, best_for: ["Foodies"], crowd_signal: "quiet" });
+    const e = entity({ entity_normalized: "Shinjuku", top_score: 9, crowd_signal: "quiet" });
     expect(
-      matchesFilters(e, { bestFor: "Foodies", minScore: 8, subreddit: "any", crowd: "quiet" })
+      matchesFilters(e, { ...DEFAULT_FILTERS, search: "shinjuku", minScore: 8, subreddit: "any", crowd: "quiet" })
     ).toBe(true);
     expect(
-      matchesFilters(e, { bestFor: "Foodies", minScore: 8, subreddit: "any", crowd: "busy" })
+      matchesFilters(e, { ...DEFAULT_FILTERS, search: "shinjuku", minScore: 8, subreddit: "any", crowd: "busy" })
     ).toBe(false);
   });
 });
@@ -102,13 +102,6 @@ describe("filterEntities", () => {
   });
 });
 
-describe("bestForOptions", () => {
-  it("returns a deduplicated, sorted union of all best_for tags", () => {
-    const a = entity({ entity_id: "a", best_for: ["Families", "Foodies"] });
-    const b = entity({ entity_id: "b", best_for: ["Foodies", "Photography lovers"] });
-    expect(bestForOptions([a, b])).toEqual(["Families", "Foodies", "Photography lovers"]);
-  });
-});
 
 describe("subredditOptions", () => {
   it("returns a deduplicated, sorted union of subreddits across source_threads", () => {

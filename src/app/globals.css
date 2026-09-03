@@ -1,33 +1,28 @@
 @import "tailwindcss";
 
-/*
- * TravelRecs is always-dark by design (matches the product mockups), not a
- * light/dark toggle, so these tokens are defined once on :root rather than
- * behind a prefers-color-scheme query.
- */
 :root {
-  --background: #0a0a0a;
-  --surface: #141414;
-  --surface-raised: #1a1a1a;
-  --surface-border: #2a2a2a;
-  --foreground: #f2f2f2;
-  --muted: #9a9a9a;
-  --muted-2: #6b6b6b;
+  --background: #f8f7f4;
+  --surface: #ffffff;
+  --surface-raised: #f2f0eb;
+  --surface-border: #e5e1d8;
+  --foreground: #1a1917;
+  --muted: #6b6762;
+  --muted-2: #a09b96;
   --accent: #ef6c3f;
-  --accent-foreground: #fff5ef;
+  --accent-foreground: #ffffff;
 
-  --positive: #34c98a;
-  --positive-bg: #16271f;
-  --positive-border: #234a36;
-  --neutral: #7c8a9e;
-  --neutral-bg: #1c2128;
-  --neutral-border: #323a47;
-  --mixed: #e0b341;
-  --mixed-bg: #2a2415;
-  --mixed-border: #4a3f1f;
-  --negative: #e0607a;
-  --negative-bg: #2a1820;
-  --negative-border: #4a2530;
+  --positive: #059669;
+  --positive-bg: #ecfdf5;
+  --positive-border: #a7f3d0;
+  --neutral: #64748b;
+  --neutral-bg: #f8fafc;
+  --neutral-border: #e2e8f0;
+  --mixed: #d97706;
+  --mixed-bg: #fffbeb;
+  --mixed-border: #fde68a;
+  --negative: #dc2626;
+  --negative-bg: #fef2f2;
+  --negative-border: #fecaca;
 }
 
 @theme inline {

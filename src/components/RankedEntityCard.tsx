@@ -24,8 +24,8 @@ export function RankedEntityCard({
 
   return (
     <div
-      className={`rounded-xl border bg-surface p-5 sm:p-6 ${
-        rank === 1 ? "border-accent/50" : "border-surface-border"
+      className={`rounded-xl border bg-surface p-5 shadow-sm transition-shadow hover:shadow-md sm:p-6 ${
+        rank === 1 ? "border-accent/30" : "border-surface-border"
       }`}
     >
       <div className="flex items-start gap-4">
@@ -60,7 +60,7 @@ export function RankedEntityCard({
           <div className="flex flex-wrap gap-3 pt-1">
             <Link
               href={`/${citySlug}/${entity.entity_id}`}
-              className="rounded-md bg-foreground px-3 py-1.5 text-xs font-medium text-background hover:bg-foreground/90"
+              className="rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-accent/90"
             >
               View full analysis
             </Link>
@@ -69,7 +69,7 @@ export function RankedEntityCard({
                 href={topThread.thread_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border border-surface-border px-3 py-1.5 text-xs font-medium text-muted hover:text-foreground"
+                className="rounded-lg border border-surface-border px-3 py-1.5 text-xs font-medium text-muted transition-colors hover:border-foreground/20 hover:text-foreground"
               >
                 Read similar threads ↗
               </a>

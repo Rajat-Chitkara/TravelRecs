@@ -16,6 +16,7 @@ import { rawDir } from "./lib/paths.ts";
 
 const DEFAULT_SOURCES: Record<string, string> = {
   tokyo: "C:\\Users\\RAJAT\\Downloads\\Travel_json",
+  bangkok: "C:\\Users\\RAJAT\\Downloads\\Travel_json\\Bangkok",
 };
 
 function parseArgs(argv: string[]) {

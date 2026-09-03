@@ -154,6 +154,7 @@ export interface City {
   display_name: string;
   status: CityStatus;
   icon: string; // path under /public/icons
+  photo?: string; // optional hero photo under /public/images
   place_count: number | null; // null for coming_soon cities
   country: string;
 }

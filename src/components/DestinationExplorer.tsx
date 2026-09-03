@@ -1,17 +1,19 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { CrowdSignal, EnrichedEntityProfile } from "@/types";
+import Link from "next/link";
+import type { CrowdSignal, EnrichedEntityProfile, EntityType } from "@/types";
 import { CROWD_SIGNAL_MIN_COVERAGE } from "@/lib/constants";
 import {
-  bestForOptions as computeBestForOptions,
   crowdSignalCoverage,
   DEFAULT_FILTERS,
+  ENTITY_TYPE_LABELS,
+  entityTypeOptions,
   filterEntities,
   subredditOptions as computeSubredditOptions,
   type EntityFilters,
 } from "@/lib/filters";
-import { RankedEntityCard } from "./RankedEntityCard";
+import { titleCase } from "@/lib/format";
 
 const SCORE_THRESHOLDS = [
   { label: "Any score", value: 0 },
@@ -39,12 +41,12 @@ function FilterSelect({
   options: { label: string; value: string }[];
 }) {
   return (
-    <label className="flex items-center gap-2 whitespace-nowrap rounded-full border border-surface-border bg-surface px-3 py-1.5 text-xs text-muted">
+    <label className="flex cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full border border-surface-border bg-surface px-3 py-1.5 text-xs text-muted hover:border-foreground/20">
       <span className="text-muted-2">{label}</span>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="bg-transparent text-foreground outline-none"
+        className="cursor-pointer bg-transparent text-foreground outline-none"
       >
         {options.map((o) => (
           <option key={o.value} value={o.value} className="bg-surface text-foreground">
@@ -52,6 +54,9 @@ function FilterSelect({
           </option>
         ))}
       </select>
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 text-muted-2">
+        <polyline points="6 9 12 15 18 9" />
+      </svg>
     </label>
   );
 }
@@ -59,64 +64,295 @@ function FilterSelect({
 export function DestinationExplorer({
   citySlug,
   entities,
+  cityName,
 }: {
   citySlug: string;
   entities: EnrichedEntityProfile[];
+  cityName: string;
 }) {
   const [filters, setFilters] = useState<EntityFilters>(DEFAULT_FILTERS);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const bestForOptions = useMemo(() => computeBestForOptions(entities), [entities]);
+  const availableTypes = useMemo(() => entityTypeOptions(entities), [entities]);
   const subredditOptions = useMemo(() => computeSubredditOptions(entities), [entities]);
-  const showCrowdFilter = useMemo(
-    () => crowdSignalCoverage(entities) >= CROWD_SIGNAL_MIN_COVERAGE,
-    [entities]
-  );
+  const showCrowdFilter = useMemo(() => crowdSignalCoverage(entities) >= CROWD_SIGNAL_MIN_COVERAGE, [entities]);
   const filtered = useMemo(() => filterEntities(entities, filters), [entities, filters]);
 
+  const selected = useMemo(
+    () => filtered.find((e) => e.entity_id === selectedId) ?? filtered[0] ?? null,
+    [filtered, selectedId]
+  );
+  const selectedRank = filtered.findIndex((e) => e.entity_id === selected?.entity_id) + 1;
+
   return (
-    <div className="space-y-6">
-      <div className="flex flex-wrap items-center gap-2">
-        <FilterSelect
-          label="Best for"
-          value={filters.bestFor}
-          onChange={(v) => setFilters((f) => ({ ...f, bestFor: v }))}
-          options={[{ label: "Any", value: "any" }, ...bestForOptions.map((o) => ({ label: o, value: o }))]}
-        />
-        <FilterSelect
-          label="Top score"
-          value={String(filters.minScore)}
-          onChange={(v) => setFilters((f) => ({ ...f, minScore: Number(v) }))}
-          options={SCORE_THRESHOLDS.map((t) => ({ label: t.label, value: String(t.value) }))}
-        />
-        <FilterSelect
-          label="Subreddits"
-          value={filters.subreddit}
-          onChange={(v) => setFilters((f) => ({ ...f, subreddit: v }))}
-          options={[{ label: "Any", value: "any" }, ...subredditOptions.map((o) => ({ label: `r/${o}`, value: o }))]}
-        />
-        {showCrowdFilter && (
-          <FilterSelect
-            label="Crowd level"
-            value={filters.crowd ?? "any"}
-            onChange={(v) => setFilters((f) => ({ ...f, crowd: v as CrowdSignal | "any" }))}
-            options={CROWD_OPTIONS.map((o) => ({ label: o.label, value: o.value ?? "any" }))}
-          />
-        )}
-      </div>
-
-      <div className="text-xs font-semibold uppercase tracking-wide text-muted-2">
-        Ranked by Lantern™ &middot; {filtered.length} of {entities.length} places
-      </div>
-
-      <div className="space-y-4">
-        {filtered.map((entity, i) => (
-          <RankedEntityCard key={entity.entity_id} rank={i + 1} citySlug={citySlug} entity={entity} />
+    <div>
+      {/* Category pills */}
+      <div className="mb-4 flex flex-wrap gap-2">
+        <button
+          onClick={() => setFilters((f) => ({ ...f, entityType: "any" }))}
+          className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+            filters.entityType === "any"
+              ? "bg-foreground text-background"
+              : "border border-surface-border bg-surface text-muted hover:border-foreground/20 hover:text-foreground"
+          }`}
+        >
+          All
+        </button>
+        {availableTypes.map((type) => (
+          <button
+            key={type}
+            onClick={() => setFilters((f) => ({ ...f, entityType: type as EntityType }))}
+            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+              filters.entityType === type
+                ? "bg-foreground text-background"
+                : "border border-surface-border bg-surface text-muted hover:border-foreground/20 hover:text-foreground"
+            }`}
+          >
+            {ENTITY_TYPE_LABELS[type]}
+          </button>
         ))}
-        {filtered.length === 0 && (
-          <p className="rounded-xl border border-surface-border bg-surface/50 p-6 text-center text-sm text-muted">
-            No places match these filters yet.
-          </p>
+      </div>
+
+      {/* Toolbar: search + filters */}
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        <div className="relative flex-1 min-w-[180px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-2 pointer-events-none">
+            <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Search places…"
+            value={filters.search}
+            onChange={(e) => setFilters((f) => ({ ...f, search: e.target.value }))}
+            className="w-full rounded-full border border-surface-border bg-surface py-1.5 pl-8 pr-3 text-xs text-foreground placeholder:text-muted-2 outline-none focus:border-foreground/30"
+          />
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <FilterSelect
+            label="Min score"
+            value={String(filters.minScore)}
+            onChange={(v) => setFilters((f) => ({ ...f, minScore: Number(v) }))}
+            options={SCORE_THRESHOLDS.map((t) => ({ label: t.label, value: String(t.value) }))}
+          />
+          <FilterSelect
+            label="Subreddits"
+            value={filters.subreddit}
+            onChange={(v) => setFilters((f) => ({ ...f, subreddit: v }))}
+            options={[{ label: "Any", value: "any" }, ...subredditOptions.map((o) => ({ label: `r/${o}`, value: o }))]}
+          />
+          {showCrowdFilter && (
+            <FilterSelect
+              label="Crowd"
+              value={filters.crowd ?? "any"}
+              onChange={(v) => setFilters((f) => ({ ...f, crowd: v as CrowdSignal | "any" }))}
+              options={CROWD_OPTIONS.map((o) => ({ label: o.label, value: o.value ?? "any" }))}
+            />
+          )}
+        </div>
+      </div>
+
+      {/* Two-column: left list (normal flow) + right sticky detail */}
+      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[380px_1fr]">
+        {/* Left: ranked list */}
+        <div className="rounded-xl border border-surface-border bg-surface shadow-sm">
+          <div className="border-b border-surface-border px-4 py-3">
+            <span className="text-[10px] font-semibold uppercase tracking-widest text-muted-2">
+              Ranked by Sentiment · {filtered.length} places
+            </span>
+          </div>
+
+          {filtered.length === 0 ? (
+            <p className="p-6 text-center text-sm text-muted">No places match these filters.</p>
+          ) : (
+            <div>
+              {filtered.map((entity, i) => {
+                const isSelected = selected?.entity_id === entity.entity_id;
+                const positivePct = Math.round(entity.sentiment_pct.positive);
+                const neutralPct = Math.round(entity.sentiment_pct.neutral);
+                const mixedPct = Math.round(entity.sentiment_pct.mixed);
+                const negativePct = Math.round(entity.sentiment_pct.negative);
+
+                return (
+                  <button
+                    key={entity.entity_id}
+                    onClick={() => setSelectedId(entity.entity_id)}
+                    className={`w-full border-b border-surface-border px-4 py-4 text-left transition-colors last:border-b-0 hover:bg-surface-raised ${
+                      isSelected ? "border-l-[3px] border-l-accent bg-surface-raised" : "border-l-[3px] border-l-transparent"
+                    }`}
+                  >
+                    <div className="flex items-start gap-3">
+                      <span
+                        className={`mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
+                          i === 0 ? "bg-accent text-white" : "border border-surface-border text-muted-2"
+                        }`}
+                      >
+                        {i + 1}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="text-[10px] uppercase tracking-wide text-muted-2">
+                          {titleCase(entity.entity_subtype || entity.entity_type)}
+                        </div>
+                        <div className="truncate text-sm font-semibold text-foreground">
+                          {entity.entity_normalized}
+                        </div>
+
+                        {/* Segmented sentiment bar */}
+                        <div className="mt-2 flex h-1.5 w-full overflow-hidden rounded-full">
+                          <div style={{ width: `${positivePct}%`, backgroundColor: "#10b981" }} />
+                          <div style={{ width: `${neutralPct}%`, backgroundColor: "#94a3b8" }} />
+                          <div style={{ width: `${mixedPct}%`, backgroundColor: "#fbbf24" }} />
+                          <div style={{ width: `${negativePct}%`, backgroundColor: "#f87171" }} />
+                        </div>
+                        <div className="mt-1.5 text-[11px] text-muted">
+                          <span className="font-semibold" style={{ color: "#059669" }}>{positivePct}% positive</span>
+                          {" · "}{entity.mention_count} mentions
+                        </div>
+
+                        {entity.verdict && (
+                          <p className="mt-1 line-clamp-1 text-[11px] text-muted-2">{entity.verdict}</p>
+                        )}
+                      </div>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Right: sticky detail panel */}
+        <div className="sticky top-[57px] max-h-[calc(100vh-57px)] overflow-y-auto">
+          {selected ? (
+            <DetailPanel
+              entity={selected}
+              rank={selectedRank}
+              total={filtered.length}
+              citySlug={citySlug}
+            />
+          ) : (
+            <div className="flex h-64 items-center justify-center rounded-xl border border-surface-border bg-surface text-sm text-muted">
+              Select a place to see details
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DetailPanel({
+  entity,
+  rank,
+  total,
+  citySlug,
+}: {
+  entity: EnrichedEntityProfile;
+  rank: number;
+  total: number;
+  citySlug: string;
+}) {
+  const { positive, neutral, mixed, negative } = entity.sentiment_counts;
+  const maxCount = Math.max(positive, neutral, mixed, negative, 1);
+
+  const sentimentRows = [
+    { icon: "👍", count: positive, color: "#10b981" },
+    { icon: "😐", count: neutral, color: "#94a3b8" },
+    { icon: "🤔", count: mixed, color: "#fbbf24" },
+    { icon: "👎", count: negative, color: "#f87171" },
+  ];
+
+  return (
+    <div className="rounded-xl border border-surface-border bg-surface shadow-sm">
+      {/* Header */}
+      <div className="border-b border-surface-border p-6">
+        <div className="text-xs text-muted-2">Rank {rank} of {total}</div>
+        <div className="mt-0.5 text-xs font-medium uppercase tracking-wide text-muted">
+          {titleCase(entity.entity_subtype || entity.entity_type)}
+        </div>
+        <h2 className="mt-1 font-mono text-2xl font-bold text-foreground">
+          {entity.entity_normalized}
+        </h2>
+        {entity.verdict && (
+          <p className="mt-2 text-sm text-muted">{entity.verdict}</p>
         )}
+      </div>
+
+      <div className="space-y-4 p-6">
+        {/* Sentiment score */}
+        <div className="rounded-lg border border-surface-border p-4">
+          <div className="mb-3 flex items-center justify-between">
+            <span className="text-xs font-semibold uppercase tracking-wide text-muted-2">Sentiment Score</span>
+            <span className="text-xs text-muted-2">{entity.mention_count} mentions total</span>
+          </div>
+          <div className="space-y-2.5">
+            {sentimentRows.map(({ icon, count, color }) => (
+              <div key={icon} className="flex items-center gap-3">
+                <span className="w-5 text-center text-sm leading-none">{icon}</span>
+                <span className="w-8 text-sm font-bold" style={{ color }}>{count}</span>
+                <div className="flex-1 overflow-hidden rounded-full bg-surface-border" style={{ height: "8px" }}>
+                  <div
+                    className="h-full rounded-full"
+                    style={{ width: `${(count / maxCount) * 100}%`, backgroundColor: color }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Pros / Cons */}
+        {(entity.pros.length > 0 || entity.cons.length > 0) && (
+          <div className="grid grid-cols-2 gap-3">
+            <div className="rounded-lg border border-positive-border bg-positive-bg p-4">
+              <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-positive">Top Pros</div>
+              <ul className="space-y-1.5">
+                {entity.pros.slice(0, 3).map((pro, i) => (
+                  <li key={i} className="flex gap-1.5 text-sm text-foreground">
+                    <span className="shrink-0 font-semibold text-positive">+</span>{pro}
+                  </li>
+                ))}
+                {entity.pros.length > 3 && (
+                  <li className="text-xs text-muted-2">+{entity.pros.length - 3} more</li>
+                )}
+              </ul>
+            </div>
+            <div className="rounded-lg border border-negative-border bg-negative-bg p-4">
+              <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-negative">Top Cons</div>
+              <ul className="space-y-1.5">
+                {entity.cons.slice(0, 3).map((con, i) => (
+                  <li key={i} className="flex gap-1.5 text-sm text-foreground">
+                    <span className="shrink-0 font-semibold text-negative">–</span>{con}
+                  </li>
+                ))}
+                {entity.cons.length > 3 && (
+                  <li className="text-xs text-muted-2">+{entity.cons.length - 3} more</li>
+                )}
+              </ul>
+            </div>
+          </div>
+        )}
+
+        {/* Best for */}
+        {entity.best_for.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            <span className="self-center text-xs text-muted-2">Best for:</span>
+            {entity.best_for.map((tag) => (
+              <span key={tag} className="rounded-full border border-surface-border bg-surface-raised px-2.5 py-1 text-xs text-muted">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* CTA */}
+        <div>
+          <Link
+            href={`/${citySlug}/${entity.entity_id}`}
+            className="inline-block rounded-xl bg-foreground px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-foreground/85"
+          >
+            View full analysis →
+          </Link>
+        </div>
       </div>
     </div>
   );
