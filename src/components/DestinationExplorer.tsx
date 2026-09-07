@@ -151,10 +151,10 @@ export function DestinationExplorer({
         </div>
       </div>
 
-      {/* Two-column: left list (normal flow) + right sticky detail */}
+      {/* Two-column: left list + right sticky detail. On mobile, detail shows first. */}
       <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[380px_1fr]">
-        {/* Left: ranked list */}
-        <div className="rounded-xl border border-surface-border bg-surface shadow-sm">
+        {/* Left: ranked list — pushed below the detail panel on mobile */}
+        <div className="order-2 lg:order-1 rounded-xl border border-surface-border bg-surface shadow-sm">
           <div className="border-b border-surface-border px-4 py-3">
             <span className="text-[10px] font-semibold uppercase tracking-widest text-muted-2">
               Ranked by Sentiment · {filtered.length} places
@@ -220,8 +220,8 @@ export function DestinationExplorer({
           )}
         </div>
 
-        {/* Right: sticky detail panel */}
-        <div className="sticky top-[57px] max-h-[calc(100vh-57px)] overflow-y-auto">
+        {/* Right: detail panel — first on mobile, sticky on desktop */}
+        <div className="order-1 lg:order-2 lg:sticky lg:top-[57px] lg:max-h-[calc(100vh-57px)] lg:overflow-y-auto">
           {selected ? (
             <DetailPanel
               entity={selected}
