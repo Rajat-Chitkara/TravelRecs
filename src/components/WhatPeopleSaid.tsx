@@ -48,21 +48,23 @@ export function WhatPeopleSaid({ mentions }: { mentions: RawMention[] }) {
         </span>
       </div>
 
-      <ul className="divide-y divide-surface-border">
+      {/* 2-column card grid */}
+      <div className="grid grid-cols-1 gap-3 p-4 sm:grid-cols-2">
         {mentions.map((m) => {
           const config = SENTIMENT_CONFIG[m.sentiment];
           const href = `https://reddit.com/comments/${m.thread_id}/_/${m.comment_id}/`;
           return (
-            <li key={m.mention_id} style={{ borderLeft: `3px solid ${config.borderColor}` }}>
-              <a
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block px-5 py-4 transition-colors hover:bg-surface-raised"
-              >
-                {/* Comment header row: avatar placeholder + username + sentiment badge */}
-                <div className="mb-2.5 flex items-center gap-2 flex-wrap">
-                  {/* Reddit-style avatar circle */}
+            <a
+              key={m.mention_id}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col gap-3 overflow-hidden rounded-lg border border-surface-border bg-surface transition-colors hover:bg-surface-raised"
+              style={{ borderLeftWidth: "3px", borderLeftColor: config.borderColor }}
+            >
+              <div className="flex flex-col gap-3 p-4">
+                {/* Avatar + username + badge */}
+                <div className="flex items-center gap-2 flex-wrap">
                   <div
                     className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white"
                     style={{ backgroundColor: REDDIT_ORANGE }}
@@ -82,15 +84,12 @@ export function WhatPeopleSaid({ mentions }: { mentions: RawMention[] }) {
                 </div>
 
                 {/* Comment text */}
-                <p className="text-sm leading-relaxed text-foreground">{m.key_phrase}</p>
+                <p className="flex-1 text-sm leading-relaxed text-foreground">{m.key_phrase}</p>
 
-                {/* Footer: upvotes + view link */}
-                <div className="mt-2.5 flex items-center gap-4 text-xs text-muted-2">
+                {/* Footer */}
+                <div className="flex items-center gap-4 text-xs text-muted-2">
                   {m.comment_score > 0 && (
-                    <span
-                      className="flex items-center gap-1 font-medium"
-                      style={{ color: REDDIT_ORANGE }}
-                    >
+                    <span className="flex items-center gap-1 font-medium" style={{ color: REDDIT_ORANGE }}>
                       <UpvoteIcon />
                       {m.comment_score}
                     </span>
@@ -104,11 +103,11 @@ export function WhatPeopleSaid({ mentions }: { mentions: RawMention[] }) {
                     </svg>
                   </span>
                 </div>
-              </a>
-            </li>
+              </div>
+            </a>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 }
