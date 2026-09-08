@@ -47,6 +47,15 @@
       "country": "Vietnam"
     },
     {
+      "slug": "bali",
+      "display_name": "Bali",
+      "status": "active",
+      "icon": "/icons/bali.svg",
+      "photo": "/images/bali.jpg",
+      "place_count": 80,
+      "country": "Indonesia"
+    },
+    {
       "slug": "paris",
       "display_name": "Paris",
       "status": "coming_soon",

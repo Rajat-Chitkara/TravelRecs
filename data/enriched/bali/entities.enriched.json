@@ -1,0 +1,5515 @@
+{
+  "city_slug": "bali",
+  "generated_at": "2026-09-08T12:11:09.196Z",
+  "total_mentions": 1046,
+  "total_threads": 51,
+  "date_range": {
+    "earliest": "2019-10-31",
+    "latest": "2026-09-04"
+  },
+  "unique_commenters": 476,
+  "entities": [
+    {
+      "entity_id": "sanur",
+      "entity_normalized": "Sanur",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 23,
+      "unique_commenters": 18,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 19,
+        "neutral": 0,
+        "mixed": 2,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 82,
+        "neutral": 0,
+        "mixed": 9,
+        "negative": 9
+      },
+      "recommendation_count": 19,
+      "warning_count": 6,
+      "top_score": 9.32,
+      "crowd_signal": "mixed",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        }
+      ],
+      "mention_ids": [
+        5,
+        156,
+        169,
+        187,
+        197,
+        220,
+        569,
+        570,
+        577,
+        581,
+        586,
+        590,
+        599,
+        636,
+        637,
+        643,
+        662,
+        756,
+        869,
+        1011,
+        1012,
+        1021,
+        1023
+      ],
+      "verdict": "The calm, walkable alternative — older crowd, real Balinese food and culture, reef-protected beach and easy boat access to the Nusas; no party scene whatsoever.",
+      "pros": [
+        "Quiet, walkable beachfront with tidy paths",
+        "Calm, reef-protected beach good for swimming",
+        "Real Balinese food, culture and local restaurants",
+        "Easy boat access to Nusa islands",
+        "Excellent for seniors with a dedicated walking path"
+      ],
+      "cons": [
+        "No party scene; can feel boring for younger travellers",
+        "Occasional taxi mafia issues at the ferry point"
+      ],
+      "best_for": [
+        "Older travellers",
+        "Families",
+        "Beach relaxation",
+        "Island hoppers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "high",
+      "enriched_at": "2026-09-08T12:11:09.190Z",
+      "input_hash": "bd40b91d988b9654"
+    },
+    {
+      "entity_id": "amed",
+      "entity_normalized": "Amed",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 12,
+      "unique_commenters": 12,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 11,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 92,
+        "neutral": 0,
+        "mixed": 8,
+        "negative": 0
+      },
+      "recommendation_count": 10,
+      "warning_count": 1,
+      "top_score": 9.28,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        48,
+        148,
+        172,
+        176,
+        194,
+        221,
+        668,
+        854,
+        862,
+        899,
+        1015,
+        1034
+      ],
+      "verdict": "A near-unanimously loved east coast escape — top-rated for snorkelling and diving off black sand beaches, authentically local and a world away from the congested south.",
+      "pros": [
+        "Best snorkelling and scuba off black sand beaches",
+        "Authentic local vibe with live music",
+        "Scenic, quiet escape from the congested south",
+        "No beach clubs — genuine Balinese nature experience"
+      ],
+      "cons": [],
+      "best_for": [
+        "Snorkellers and divers",
+        "Nature seekers",
+        "Authentic experience hunters"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "0ffa84c911d61084"
+    },
+    {
+      "entity_id": "sidemen",
+      "entity_normalized": "Sidemen",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 9,
+      "unique_commenters": 8,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 9,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 8,
+      "warning_count": 0,
+      "top_score": 8.84,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        },
+        {
+          "thread_id": "16seqc1",
+          "thread_title": "3 recommendations of beautiful places without many tourists",
+          "thread_url": "https://reddit.com/r/bali/comments/16seqc1/3_recommendations_of_beautiful_places_without/",
+          "subreddit": "bali",
+          "post_score": 23
+        }
+      ],
+      "mention_ids": [
+        14,
+        43,
+        69,
+        158,
+        170,
+        171,
+        256,
+        853,
+        1035
+      ],
+      "verdict": "Universally praised quiet valley town with hiking trails, streams and stunning views — a rewarding day trip or short stay north of Ubud.",
+      "pros": [
+        "Beautiful, quiet valleys with streams and hiking trails",
+        "Amazing views and a very peaceful atmosphere",
+        "Good day trip from Ubud, roughly an hour each way"
+      ],
+      "cons": [],
+      "best_for": [
+        "Hikers",
+        "Culture day-trippers",
+        "Peace seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "cd3746a6fc75809f"
+    },
+    {
+      "entity_id": "mandapa",
+      "entity_normalized": "Mandapa",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 9,
+      "unique_commenters": 9,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 9,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 3,
+      "top_score": 8.84,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "ymmzsc",
+          "thread_title": "Where was the best resort/villa you stayed at in Seminyak Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/ymmzsc/where_was_the_best_resortvilla_you_stayed_at_in/",
+          "subreddit": "bali",
+          "post_score": 12
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        682,
+        683,
+        684,
+        685,
+        686,
+        698,
+        720,
+        778,
+        813
+      ],
+      "verdict": "Considered by many the best resort in Bali — exceptional service, outstanding amenities and huge private pools; book the villas or river suites, not standard rooms.",
+      "pros": [
+        "Widely rated the best resort in Bali",
+        "Huge private pools and outstanding amenities and service",
+        "Top recommended Ubud base for a luxury stay"
+      ],
+      "cons": [
+        "Not a budget option"
+      ],
+      "best_for": [
+        "Luxury travellers",
+        "Honeymoon couples"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "6ffe1f98f74bab78"
+    },
+    {
+      "entity_id": "kintamani",
+      "entity_normalized": "Kintamani",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 8,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 8,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 6,
+      "warning_count": 0,
+      "top_score": 8.67,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1iri4mp",
+          "thread_title": "What do you usually do in Bali?",
+          "thread_url": "https://reddit.com/r/travel/comments/1iri4mp/what_do_you_usually_do_in_bali/",
+          "subreddit": "travel",
+          "post_score": 7
+        }
+      ],
+      "mention_ids": [
+        21,
+        27,
+        29,
+        94,
+        585,
+        852,
+        970,
+        1038
+      ],
+      "verdict": "Unanimously loved for stunning volcano and lake views, excellent single-origin coffee and hot springs — the best day out in Bali according to many visitors.",
+      "pros": [
+        "Stunning volcano and lake views with orange farms roadside",
+        "Magnificent coffee shops with popular single-origin beans",
+        "Hot spring resort by the lake",
+        "Day trip combining temple, rice terrace and waterfall en route"
+      ],
+      "cons": [],
+      "best_for": [
+        "Day-trippers",
+        "Coffee enthusiasts",
+        "Nature lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "888cae75c9401690"
+    },
+    {
+      "entity_id": "uluwatu",
+      "entity_normalized": "Uluwatu",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 13,
+      "unique_commenters": 12,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 11,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 84,
+        "neutral": 0,
+        "mixed": 8,
+        "negative": 8
+      },
+      "recommendation_count": 10,
+      "warning_count": 3,
+      "top_score": 8.62,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        }
+      ],
+      "mention_ids": [
+        6,
+        7,
+        10,
+        62,
+        73,
+        80,
+        85,
+        189,
+        692,
+        890,
+        1014,
+        1028,
+        1033
+      ],
+      "verdict": "Bali's best coastal area by many accounts — world-class cliff views, stunning beaches, great nightlife and a relaxed hippie vibe; though there is no real town centre.",
+      "pros": [
+        "Stunning cliff views and world-class beaches",
+        "Great nightlife alongside a relaxed hippie atmosphere",
+        "Two to three nights recommended by multiple visitors"
+      ],
+      "cons": [
+        "No real town centre",
+        "Not worth visiting unless you surf or love the coast"
+      ],
+      "best_for": [
+        "Beach lovers",
+        "Surfers",
+        "Nightlife seekers",
+        "Coastal travellers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "78955992a973754b"
+    },
+    {
+      "entity_id": "munduk",
+      "entity_normalized": "Munduk",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 7,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 7,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 6,
+      "warning_count": 0,
+      "top_score": 8.47,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        },
+        {
+          "thread_id": "16seqc1",
+          "thread_title": "3 recommendations of beautiful places without many tourists",
+          "thread_url": "https://reddit.com/r/bali/comments/16seqc1/3_recommendations_of_beautiful_places_without/",
+          "subreddit": "bali",
+          "post_score": 23
+        }
+      ],
+      "mention_ids": [
+        44,
+        255,
+        851,
+        897,
+        998,
+        1004,
+        1036
+      ],
+      "verdict": "Unanimously praised peaceful northern village with trekking, cultural experiences and gorgeous surroundings — worth upgrading from a day trip to an overnight stay.",
+      "pros": [
+        "Most peaceful place in Bali per one visitor",
+        "Gorgeous scenery with trekking and cultural opportunities",
+        "Off the beaten track alternative to Ubud"
+      ],
+      "cons": [],
+      "best_for": [
+        "Hikers and trekkers",
+        "Off-beat travellers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "cc52bd71928ec9c1"
+    },
+    {
+      "entity_id": "candidasa",
+      "entity_normalized": "Candidasa",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 0,
+        "mixed": 17,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 1,
+      "top_score": 8.25,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        },
+        {
+          "thread_id": "16seqc1",
+          "thread_title": "3 recommendations of beautiful places without many tourists",
+          "thread_url": "https://reddit.com/r/bali/comments/16seqc1/3_recommendations_of_beautiful_places_without/",
+          "subreddit": "bali",
+          "post_score": 23
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        49,
+        77,
+        78,
+        157,
+        253,
+        1016
+      ],
+      "verdict": "An underrated east coast gem — laid-back, family-oriented and largely untouched by mass tourism, though it is a long way from the main hotspots.",
+      "pros": [
+        "Laid-back and family-oriented with an older crowd",
+        "Genuinely underrated east coast spot per a local",
+        "Sightseeing and nightlife nearby without traffic mayhem"
+      ],
+      "cons": [
+        "Far from the main tourist areas"
+      ],
+      "best_for": [
+        "Families",
+        "Older travellers",
+        "Off-beat explorers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "e60e00a1017ec4d1"
+    },
+    {
+      "entity_id": "lombok",
+      "entity_normalized": "Lombok",
+      "entity_type": "day_trip",
+      "entity_subtype": "island",
+      "mention_count": 6,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 4,
+      "warning_count": 0,
+      "top_score": 8.25,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        },
+        {
+          "thread_id": "16seqc1",
+          "thread_title": "3 recommendations of beautiful places without many tourists",
+          "thread_url": "https://reddit.com/r/bali/comments/16seqc1/3_recommendations_of_beautiful_places_without/",
+          "subreddit": "bali",
+          "post_score": 23
+        }
+      ],
+      "mention_ids": [
+        75,
+        115,
+        116,
+        162,
+        260,
+        875
+      ],
+      "verdict": "Unanimously praised as better than Bali for beaches, landscapes and fewer crowds — a totally different, more authentic vibe with beautiful trekking.",
+      "pros": [
+        "Better beaches and landscapes than Bali",
+        "Far fewer tourists and a completely different local vibe",
+        "Beautiful trekking opportunities"
+      ],
+      "cons": [],
+      "best_for": [
+        "Trekkers and hikers",
+        "Beach seekers",
+        "Crowd avoiders"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "47f48d7b5d931046"
+    },
+    {
+      "entity_id": "room-4-dessert",
+      "entity_normalized": "Room 4 Dessert",
+      "entity_type": "restaurant",
+      "entity_subtype": "dessert",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 0,
+        "mixed": 17,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 1,
+      "top_score": 8.25,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "dpmd47",
+          "thread_title": "Non touristy/ hidden gems of Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/dpmd47/non_touristy_hidden_gems_of_bali/",
+          "subreddit": "bali",
+          "post_score": 10
+        },
+        {
+          "thread_id": "1medprr",
+          "thread_title": "Must Try Eating places in Bali",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1medprr/must_try_eating_places_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        }
+      ],
+      "mention_ids": [
+        183,
+        184,
+        263,
+        317,
+        397,
+        518
+      ],
+      "verdict": "A phenomenal tasting menu from a Michelin-starred chef, each course paired with a special drink and featured on Chef's Table — brace for the price.",
+      "pros": [
+        "Outstanding tasting menu with each course paired with a drink",
+        "Michelin-starred chef and featured on Netflix's Chef's Table",
+        "Widely named the best tasting menu available in Bali"
+      ],
+      "cons": [
+        "Very expensive"
+      ],
+      "best_for": [
+        "Fine diners",
+        "Foodie experiences",
+        "Special occasions"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "389ab054410646aa"
+    },
+    {
+      "entity_id": "merah-putih",
+      "entity_normalized": "Merah Putih",
+      "entity_type": "restaurant",
+      "entity_subtype": "indonesian",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 1,
+      "top_score": 8.25,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        336,
+        337,
+        338,
+        464,
+        473,
+        513
+      ],
+      "verdict": "A long-established, fabulously beautiful fancy Indonesian restaurant with an exceptional tasting menu — perfect for a special night out, but costs can run high.",
+      "pros": [
+        "Exceptional tasting menu with modern Indonesian flavours",
+        "Beautiful, cool interior that has stood the test of time",
+        "Adults-preferred atmosphere for a refined special evening"
+      ],
+      "cons": [
+        "Can get very expensive"
+      ],
+      "best_for": [
+        "Fine diners",
+        "Special occasions",
+        "Indonesian cuisine lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "984a63772988b1c7"
+    },
+    {
+      "entity_id": "seniman-coffee",
+      "entity_normalized": "Seniman Coffee",
+      "entity_type": "restaurant",
+      "entity_subtype": "cafe",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 1,
+      "top_score": 8.25,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1mvpgy8",
+          "thread_title": "Coffees to buy in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1mvpgy8/coffees_to_buy_in_bali/",
+          "subreddit": "bali",
+          "post_score": 8
+        },
+        {
+          "thread_id": "ygk46w",
+          "thread_title": "Coffee snobs that frequent Bali, where do I go?",
+          "thread_url": "https://reddit.com/r/bali/comments/ygk46w/coffee_snobs_that_frequent_bali_where_do_i_go/",
+          "subreddit": "bali",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1fikzxm",
+          "thread_title": "Suggestion for Bali coffee plantation tour",
+          "thread_url": "https://reddit.com/r/JamesHoffmann/comments/1fikzxm/suggestion_for_bali_coffee_plantation_tour/",
+          "subreddit": "JamesHoffmann",
+          "post_score": 2
+        }
+      ],
+      "mention_ids": [
+        908,
+        909,
+        910,
+        911,
+        912,
+        913
+      ],
+      "verdict": "The top-rated coffee stop in Ubud — Indonesian beans from across the archipelago, with standout honey roasts and cold brews; the store is a bit far out.",
+      "pros": [
+        "Beans sourced from all over Indonesia",
+        "Honey roasts and cold brews highly recommended",
+        "Consistently rated best coffee in Ubud"
+      ],
+      "cons": [
+        "Store is quite far out in Ubud"
+      ],
+      "best_for": [
+        "Coffee enthusiasts",
+        "Specialty coffee seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "05dfba0276478add"
+    },
+    {
+      "entity_id": "private-driver",
+      "entity_normalized": "Private Driver",
+      "entity_type": "experience",
+      "entity_subtype": "transport",
+      "mention_count": 7,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 86,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 14
+      },
+      "recommendation_count": 6,
+      "warning_count": 2,
+      "top_score": 8.24,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1r61lcs",
+          "thread_title": "What’s one mistake you should absolutely avoid on your first trip to Bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r61lcs/whats_one_mistake_you_should_absolutely_avoid_on/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 24
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "15mkhp7",
+          "thread_title": "Bali must do’s",
+          "thread_url": "https://reddit.com/r/bali/comments/15mkhp7/bali_must_dos/",
+          "subreddit": "bali",
+          "post_score": 9
+        }
+      ],
+      "mention_ids": [
+        54,
+        79,
+        98,
+        205,
+        228,
+        983,
+        987
+      ],
+      "verdict": "Strongly recommended given Bali's extreme traffic — knowledgeable, economical for a full day and much safer and more relaxing than riding a scooter.",
+      "pros": [
+        "Economical for a full-day tour, around 600k plus tip",
+        "Drivers know the good spots and go above and beyond",
+        "Safer and more relaxing than scooter travel"
+      ],
+      "cons": [
+        "Traffic means even short drives can take an hour"
+      ],
+      "best_for": [
+        "Sightseers",
+        "Non-scooter travellers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "b2c06aadcbac9054"
+    },
+    {
+      "entity_id": "bvlgari-resort",
+      "entity_normalized": "Bvlgari Resort",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 6,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 0,
+        "mixed": 17,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 1,
+      "top_score": 8.12,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        622,
+        673,
+        674,
+        701,
+        714,
+        735
+      ],
+      "verdict": "An outstanding coastal resort with incredible sea views, stunning sunsets and excellent service — one visitor would pick it over the Ritz; fewer nearby attractions than Ubud.",
+      "pros": [
+        "Fantastic sea views and incredible sunsets",
+        "Excellent service; a coastal favourite among residents",
+        "Preferred over comparable competitors by multiple visitors"
+      ],
+      "cons": [
+        "Fewer nearby attractions compared to inland resorts"
+      ],
+      "best_for": [
+        "Luxury coastal seekers",
+        "Honeymoon couples"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "917c97b77a051db3"
+    },
+    {
+      "entity_id": "andaz-bali",
+      "entity_normalized": "Andaz Bali",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 8,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 7,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 88,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 12
+      },
+      "recommendation_count": 5,
+      "warning_count": 1,
+      "top_score": 8,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        138,
+        667,
+        703,
+        704,
+        751,
+        752,
+        753,
+        754
+      ],
+      "verdict": "A beautiful lifestyle hotel blending traditional Balinese and modern design — widely recommended for its Sanur location, excellent breakfast and innovative small-plate menu.",
+      "pros": [
+        "Beautiful Balinese-meets-modern design aesthetic",
+        "Good breakfast and acclaimed small-plate menu",
+        "Top recommended Sanur accommodation pick"
+      ],
+      "cons": [
+        "Positioned as a lifestyle hotel, not a full luxury property"
+      ],
+      "best_for": [
+        "Design lovers",
+        "Sanur visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "a752061fe8303c09"
+    },
+    {
+      "entity_id": "north-bali",
+      "entity_normalized": "North Bali",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 5,
+      "warning_count": 0,
+      "top_score": 7.99,
+      "crowd_signal": "mixed",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        40,
+        164,
+        884,
+        885,
+        901
+      ],
+      "verdict": "Consistently praised for peace, quiet and genuine Balinese culture — still uncrowded with lovely scenery and traditional villages, a very different feel from the south.",
+      "pros": [
+        "Peace, quiet and genuinely Balinese atmosphere",
+        "Beautiful, uncrowded scenery and traditional villages",
+        "Clean and not busy — visitors want to return"
+      ],
+      "cons": [],
+      "best_for": [
+        "Authentic experience seekers",
+        "Crowd avoiders"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "527aac7128f46231"
+    },
+    {
+      "entity_id": "mamasan",
+      "entity_normalized": "Mamasan",
+      "entity_type": "restaurant",
+      "entity_subtype": "asian",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 80,
+        "neutral": 20,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.99,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1s8vxdb",
+          "thread_title": "Best restaurants!🌮🥗🥟🍤",
+          "thread_url": "https://reddit.com/r/bali/comments/1s8vxdb/best_restaurants/",
+          "subreddit": "bali",
+          "post_score": 1
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        262,
+        264,
+        352,
+        462,
+        463
+      ],
+      "verdict": "An outstanding Asian restaurant earning strong recommendations from multiple visitors — stunning-looking space and a top contender for favourite dining of the trip.",
+      "pros": [
+        "Outstanding food, potentially a trip favourite",
+        "Visually stunning interior",
+        "Consistently recommended across multiple visitors"
+      ],
+      "cons": [],
+      "best_for": [
+        "Asian cuisine lovers",
+        "Fine diners"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "2e91679c710737aa"
+    },
+    {
+      "entity_id": "w-bali",
+      "entity_normalized": "W Bali",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 6,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 17,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 1,
+      "top_score": 7.88,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "ymmzsc",
+          "thread_title": "Where was the best resort/villa you stayed at in Seminyak Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/ymmzsc/where_was_the_best_resortvilla_you_stayed_at_in/",
+          "subreddit": "bali",
+          "post_score": 12
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        122,
+        509,
+        764,
+        765,
+        766,
+        767
+      ],
+      "verdict": "A strong Seminyak pick for sunset views directly from the balcony, an exceptional steakhouse and walkable restaurant access — check the brand suits your style.",
+      "pros": [
+        "Sunset views directly from the balcony",
+        "Outstanding steakhouse on property",
+        "Walkable to many restaurants in Seminyak"
+      ],
+      "cons": [],
+      "best_for": [
+        "Sunset lovers",
+        "Seminyak visitors",
+        "Steak enthusiasts"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "060f56813da58024"
+    },
+    {
+      "entity_id": "warung-kelapa",
+      "entity_normalized": "Warung Kelapa",
+      "entity_type": "restaurant",
+      "entity_subtype": "warung",
+      "mention_count": 4,
+      "unique_commenters": 2,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lbhxb8",
+          "thread_title": "Must try local dishes in Bali!",
+          "thread_url": "https://reddit.com/r/bali/comments/1lbhxb8/must_try_local_dishes_in_bali/",
+          "subreddit": "bali",
+          "post_score": 20
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        15,
+        535,
+        536,
+        537
+      ],
+      "verdict": "A beloved local warung where a couple cooks everything fresh from their own garden — delicious enough to bring one visitor back three times a week.",
+      "pros": [
+        "Everything made fresh from the owners' garden",
+        "Delicious food loved by devoted repeat visitors"
+      ],
+      "cons": [],
+      "best_for": [
+        "Local food seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "7ceb8fdac155aa27"
+    },
+    {
+      "entity_id": "scooter-road-trips",
+      "entity_normalized": "Scooter Road Trips",
+      "entity_type": "experience",
+      "entity_subtype": "scooter",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": "mixed",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "dpmd47",
+          "thread_title": "Non touristy/ hidden gems of Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/dpmd47/non_touristy_hidden_gems_of_bali/",
+          "subreddit": "bali",
+          "post_score": 10
+        }
+      ],
+      "mention_ids": [
+        18,
+        72,
+        168,
+        881
+      ],
+      "verdict": "Consistently described as the most fun way to experience Bali — heading north reveals empty waterfalls, tourist-free roadside cafes and stunning back-road scenery.",
+      "pros": [
+        "Most fun activity in Bali per multiple visitors",
+        "Empty waterfalls and no-tourist roadside cafes heading north",
+        "Stunning back-road scenery away from crowded towns"
+      ],
+      "cons": [],
+      "best_for": [
+        "Adventure seekers",
+        "Independent explorers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "9738cc0d5e3cd87a"
+    },
+    {
+      "entity_id": "la-brisa",
+      "entity_normalized": "La Brisa",
+      "entity_type": "restaurant",
+      "entity_subtype": "beach club",
+      "mention_count": 4,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "15mkhp7",
+          "thread_title": "Bali must do’s",
+          "thread_url": "https://reddit.com/r/bali/comments/15mkhp7/bali_must_dos/",
+          "subreddit": "bali",
+          "post_score": 9
+        },
+        {
+          "thread_id": "1nm91jl",
+          "thread_title": "Most beautiful Places on the Island?",
+          "thread_url": "https://reddit.com/r/bali/comments/1nm91jl/most_beautiful_places_on_the_island/",
+          "subreddit": "bali",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        26,
+        127,
+        216,
+        1031
+      ],
+      "verdict": "A confident resident pick in Canggu for beautiful sunsets — loved by multiple visitors and a standout beach club in the area.",
+      "pros": [
+        "Beautiful sunsets from the venue",
+        "Resident-endorsed Canggu beach club"
+      ],
+      "cons": [],
+      "best_for": [
+        "Sunset seekers",
+        "Beach club goers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "2967442364d196f2"
+    },
+    {
+      "entity_id": "east-bali",
+      "entity_normalized": "East Bali",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 4,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": "mixed",
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1iri4mp",
+          "thread_title": "What do you usually do in Bali?",
+          "thread_url": "https://reddit.com/r/travel/comments/1iri4mp/what_do_you_usually_do_in_bali/",
+          "subreddit": "travel",
+          "post_score": 7
+        },
+        {
+          "thread_id": "1nm91jl",
+          "thread_title": "Most beautiful Places on the Island?",
+          "thread_url": "https://reddit.com/r/bali/comments/1nm91jl/most_beautiful_places_on_the_island/",
+          "subreddit": "bali",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        39,
+        101,
+        724,
+        1037
+      ],
+      "verdict": "Unanimously recommended as the authentic Bali experience — peaceful, with nicer beaches and good snorkelling, and in line with what people actually love about the island.",
+      "pros": [
+        "Peace, quiet and genuine Balinese atmosphere",
+        "Good snorkelling and nicer beaches",
+        "More authentic than the overcrowded south"
+      ],
+      "cons": [],
+      "best_for": [
+        "Authentic experience seekers",
+        "Snorkellers",
+        "Beach seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "0e04baebaa24206f"
+    },
+    {
+      "entity_id": "revolver",
+      "entity_normalized": "Revolver",
+      "entity_type": "restaurant",
+      "entity_subtype": "cafe",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 4,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "ygk46w",
+          "thread_title": "Coffee snobs that frequent Bali, where do I go?",
+          "thread_url": "https://reddit.com/r/bali/comments/ygk46w/coffee_snobs_that_frequent_bali_where_do_i_go/",
+          "subreddit": "bali",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1h9m1pg",
+          "thread_title": "Restaurant recommendations?",
+          "thread_url": "https://reddit.com/r/bali/comments/1h9m1pg/restaurant_recommendations/",
+          "subreddit": "bali",
+          "post_score": 4
+        }
+      ],
+      "mention_ids": [
+        559,
+        923,
+        924,
+        925
+      ],
+      "verdict": "A strongly recommended Seminyak cafe tucked in an alley — standout cold brew and pour-over that earns emphatic endorsements from multiple visitors.",
+      "pros": [
+        "Standout cold brew and pour-over coffee",
+        "Hidden alley location — tricky to find but worth the effort"
+      ],
+      "cons": [],
+      "best_for": [
+        "Coffee enthusiasts",
+        "Seminyak visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "cb7772ef626a6326"
+    },
+    {
+      "entity_id": "suka-espresso",
+      "entity_normalized": "Suka Espresso",
+      "entity_type": "restaurant",
+      "entity_subtype": "cafe",
+      "mention_count": 4,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.69,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1qh7tte",
+          "thread_title": "Bali specialty cafe recommendations?",
+          "thread_url": "https://reddit.com/r/indonesia/comments/1qh7tte/bali_specialty_cafe_recommendations/",
+          "subreddit": "indonesia",
+          "post_score": 2
+        },
+        {
+          "thread_id": "1gt7rgy",
+          "thread_title": "Coffee recommendations ",
+          "thread_url": "https://reddit.com/r/bali/comments/1gt7rgy/coffee_recommendations/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        959,
+        960,
+        961,
+        962
+      ],
+      "verdict": "A well-known Ubud cafe with coffee good enough to take home — beans praised so highly one visitor packed them in their luggage.",
+      "pros": [
+        "Exceptional coffee; beans worth buying to take home",
+        "Well-known and consistently recommended in Ubud"
+      ],
+      "cons": [],
+      "best_for": [
+        "Coffee enthusiasts",
+        "Ubud visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "0b50f022bbb30e51"
+    },
+    {
+      "entity_id": "mount-batur",
+      "entity_normalized": "Mount Batur",
+      "entity_type": "attraction",
+      "entity_subtype": "volcano",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 17
+      },
+      "recommendation_count": 5,
+      "warning_count": 2,
+      "top_score": 7.63,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1nzv9ip",
+          "thread_title": "Where to stay for best first time experience?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1nzv9ip/where_to_stay_for_best_first_time_experience/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        },
+        {
+          "thread_id": "1iri4mp",
+          "thread_title": "What do you usually do in Bali?",
+          "thread_url": "https://reddit.com/r/travel/comments/1iri4mp/what_do_you_usually_do_in_bali/",
+          "subreddit": "travel",
+          "post_score": 7
+        },
+        {
+          "thread_id": "1nm91jl",
+          "thread_title": "Most beautiful Places on the Island?",
+          "thread_url": "https://reddit.com/r/bali/comments/1nm91jl/most_beautiful_places_on_the_island/",
+          "subreddit": "bali",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        86,
+        90,
+        92,
+        203,
+        795,
+        1044
+      ],
+      "verdict": "Widely considered the most worthwhile activity in Bali — stunning active volcano with nearby hot springs; the early start and strenuous hike are the main challenges.",
+      "pros": [
+        "Stunning volcano, beautiful even without summiting",
+        "Hot springs nearby worth visiting at the same time",
+        "Widely rated the most worthwhile Bali experience"
+      ],
+      "cons": [
+        "Early start and strenuous hike required",
+        "Thieves reported near the viewpoint — stay cautious"
+      ],
+      "best_for": [
+        "Hikers",
+        "Adventure seekers"
+      ],
+      "best_time": "Early morning (sunrise hike)",
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "db667e150d3589b3"
+    },
+    {
+      "entity_id": "amankila",
+      "entity_normalized": "Amankila",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 7,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 72,
+        "neutral": 0,
+        "mixed": 14,
+        "negative": 14
+      },
+      "recommendation_count": 5,
+      "warning_count": 2,
+      "top_score": 7.4,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        632,
+        702,
+        708,
+        721,
+        722,
+        744,
+        745
+      ],
+      "verdict": "Elegant and quietly luxurious with old Aman energy — beautiful pools and great service, though pricey and described by some as rougher around the edges.",
+      "pros": [
+        "Quiet, elegant old Aman atmosphere",
+        "Beautiful main pools without needing a private one",
+        "Great service and stunning views"
+      ],
+      "cons": [
+        "Almost double the price of comparable alternatives",
+        "Some roughness around the edges noted"
+      ],
+      "best_for": [
+        "Luxury seekers",
+        "Aman loyalists"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "5591a44639b8ae7c"
+    },
+    {
+      "entity_id": "ayana",
+      "entity_normalized": "Ayana",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 66,
+        "neutral": 17,
+        "mixed": 0,
+        "negative": 17
+      },
+      "recommendation_count": 4,
+      "warning_count": 1,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        149,
+        233,
+        618,
+        621,
+        709,
+        783
+      ],
+      "verdict": "A large full-destination resort with a private beach and the iconic Rock Bar — works well as a complete stay, though staff may try to restrict public beach access.",
+      "pros": [
+        "Secluded private beach on property",
+        "Large enough scale to work as a complete destination",
+        "Iconic Rock Bar on site"
+      ],
+      "cons": [
+        "Staff may attempt to prevent free public beach access"
+      ],
+      "best_for": [
+        "Resort holiday seekers",
+        "Beach club lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "a7d496815eff96ba"
+    },
+    {
+      "entity_id": "klook",
+      "entity_normalized": "Klook",
+      "entity_type": "experience",
+      "entity_subtype": "booking platform",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "15mkhp7",
+          "thread_title": "Bali must do’s",
+          "thread_url": "https://reddit.com/r/bali/comments/15mkhp7/bali_must_dos/",
+          "subreddit": "bali",
+          "post_score": 9
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        59,
+        117,
+        219
+      ],
+      "verdict": "A straightforward booking platform recommended for securing drivers and day-trip activities — a useful one-stop option with many tours available.",
+      "pros": [
+        "Useful for booking an eight-hour private driver",
+        "Good selection of day-trip activities and tours"
+      ],
+      "cons": [],
+      "best_for": [
+        "Day-trippers",
+        "Tour bookers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "fc1e8a44f8e51fbf"
+    },
+    {
+      "entity_id": "bo-and-bun",
+      "entity_normalized": "Bo and Bun",
+      "entity_type": "restaurant",
+      "entity_subtype": "vietnamese",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        125,
+        447,
+        448
+      ],
+      "verdict": "A well-regarded Vietnamese spot with outstanding pho — the spicy lemongrass version especially praised, and food quality high for the price.",
+      "pros": [
+        "Amazing spicy lemongrass pho",
+        "Great food at a great price"
+      ],
+      "cons": [],
+      "best_for": [
+        "Vietnamese food lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "0479329fc75104a4"
+    },
+    {
+      "entity_id": "risata-bali-resort",
+      "entity_normalized": "Risata Bali Resort",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 1,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1w6zk29",
+          "thread_title": "Final day in Bali - what would you do?",
+          "thread_url": "https://reddit.com/r/bali/comments/1w6zk29/final_day_in_bali_what_would_you_do/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        237,
+        238,
+        239
+      ],
+      "verdict": "An affordable family-friendly resort very close to the airport — pool, ping pong and a kids playground with good-value rates.",
+      "pros": [
+        "Very affordable and conveniently close to the airport",
+        "Pool, ping pong and a playground for families with kids"
+      ],
+      "cons": [],
+      "best_for": [
+        "Families",
+        "Budget resort seekers",
+        "Airport-adjacent stays"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "f863184da56cec10"
+    },
+    {
+      "entity_id": "ku-de-ta",
+      "entity_normalized": "Ku De Ta",
+      "entity_type": "restaurant",
+      "entity_subtype": "beach club",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1w6zk29",
+          "thread_title": "Final day in Bali - what would you do?",
+          "thread_url": "https://reddit.com/r/bali/comments/1w6zk29/final_day_in_bali_what_would_you_do/",
+          "subreddit": "bali",
+          "post_score": 1
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        243,
+        345,
+        515
+      ],
+      "verdict": "A favourite Seminyak beach club for sunset sessions — five-star food, a romantic setting and a Sunday family day make it a versatile crowd-pleaser.",
+      "pros": [
+        "Five-star food in a beautiful beach setting",
+        "Romantic atmosphere with Sunday family day events",
+        "A go-to final-afternoon sunset spot for repeat visitors"
+      ],
+      "cons": [],
+      "best_for": [
+        "Sunset lovers",
+        "Families",
+        "Couples"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "c04e27afbb43d3df"
+    },
+    {
+      "entity_id": "eskq-bar",
+      "entity_normalized": "ESKQ Bar",
+      "entity_type": "restaurant",
+      "entity_subtype": "steak",
+      "mention_count": 3,
+      "unique_commenters": 2,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1sy7sb0",
+          "thread_title": "Food in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1sy7sb0/food_in_bali/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1s8vxdb",
+          "thread_title": "Best restaurants!🌮🥗🥟🍤",
+          "thread_url": "https://reddit.com/r/bali/comments/1s8vxdb/best_restaurants/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        327,
+        328,
+        384
+      ],
+      "verdict": "A hidden gem steakhouse hailed for the best steaks on the island — consistently called amazing by everyone who mentions it.",
+      "pros": [
+        "Best steaks on the island per multiple visitors",
+        "Hidden gem status — off the radar but consistently loved"
+      ],
+      "cons": [],
+      "best_for": [
+        "Steak lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "78ce9602f44da808"
+    },
+    {
+      "entity_id": "sangsaka",
+      "entity_normalized": "Sangsaka",
+      "entity_type": "restaurant",
+      "entity_subtype": "indonesian",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1h9m1pg",
+          "thread_title": "Restaurant recommendations?",
+          "thread_url": "https://reddit.com/r/bali/comments/1h9m1pg/restaurant_recommendations/",
+          "subreddit": "bali",
+          "post_score": 4
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        335,
+        511,
+        512
+      ],
+      "verdict": "A fabulous modern Indonesian restaurant with great ambience and excellent service — and not expensive for the quality on offer.",
+      "pros": [
+        "Fabulous modern Indonesian flavours",
+        "Great ambience and excellent service",
+        "Good value — not expensive for the quality"
+      ],
+      "cons": [],
+      "best_for": [
+        "Indonesian cuisine lovers",
+        "Special dinners"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "6109dc4e28e723dd"
+    },
+    {
+      "entity_id": "ling-ling-s",
+      "entity_normalized": "Ling Ling's",
+      "entity_type": "restaurant",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        355,
+        484,
+        485
+      ],
+      "verdict": "A fun, family-friendly restaurant with a lively vibe — kids kept entertained with colouring and games, earning enthusiastic recommendations.",
+      "pros": [
+        "Fun and family-friendly with kids' colouring and games",
+        "Lively, enjoyable vibe for all ages"
+      ],
+      "cons": [],
+      "best_for": [
+        "Families with children"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "ae36fca37aa730dd"
+    },
+    {
+      "entity_id": "boy-n-cow",
+      "entity_normalized": "Boy 'n' Cow",
+      "entity_type": "restaurant",
+      "entity_subtype": "steak",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        }
+      ],
+      "mention_ids": [
+        459,
+        460,
+        461
+      ],
+      "verdict": "A consistently recommended Seminyak steakhouse celebrated for the best steaks — featured on multiple shortlists from different visitors.",
+      "pros": [
+        "Best steaks in Seminyak per multiple visitors",
+        "Featured on several recommended shortlists"
+      ],
+      "cons": [],
+      "best_for": [
+        "Steak lovers",
+        "Seminyak diners"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "f456fa96f1f40a5b"
+    },
+    {
+      "entity_id": "melia-bali",
+      "entity_normalized": "Melia Bali",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        },
+        {
+          "thread_id": "1dtf2gx",
+          "thread_title": "Which Hotel To Choose?",
+          "thread_url": "https://reddit.com/r/bali/comments/1dtf2gx/which_hotel_to_choose/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        620,
+        761,
+        762
+      ],
+      "verdict": "A well-liked beachfront resort with secluded beach access — described as awesome and consistently listed among the good beachfront properties.",
+      "pros": [
+        "Secluded beach access on property",
+        "Solid beachfront property with consistently positive feedback"
+      ],
+      "cons": [],
+      "best_for": [
+        "Beach resort seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "08a5d96d0b42d018"
+    },
+    {
+      "entity_id": "regent-canggu",
+      "entity_normalized": "Regent Canggu",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        627,
+        628,
+        699
+      ],
+      "verdict": "A new Canggu property with great reviews, beautiful design and amazing staff — also praised as a strong base for dining out.",
+      "pros": [
+        "New property with great reviews and beautiful design",
+        "Amazing staff",
+        "Good location for dining out in Canggu"
+      ],
+      "cons": [],
+      "best_for": [
+        "Canggu visitors",
+        "Luxury seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "6048f68a667ac833"
+    },
+    {
+      "entity_id": "jimbaran",
+      "entity_normalized": "Jimbaran",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 2,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 1,
+      "top_score": 7.31,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        }
+      ],
+      "mention_ids": [
+        641,
+        642,
+        653
+      ],
+      "verdict": "A calm, clean beachside neighbourhood with incredible grilled fish on the sand, swimmable water and a quiet local food scene — watch prices at the fish markets.",
+      "pros": [
+        "Calm, swimmable water and a long clean beach",
+        "Grilled fish restaurants right onto the sand",
+        "Quiet neighbourhood connected by the toll road"
+      ],
+      "cons": [
+        "Fish market vendors may overcharge — negotiate carefully"
+      ],
+      "best_for": [
+        "Seafood lovers",
+        "Beach relaxation",
+        "Quiet escapes"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "ecb42b8c65340c66"
+    },
+    {
+      "entity_id": "umana-bali",
+      "entity_normalized": "Umana Bali",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1mhiwgi",
+          "thread_title": "First Bali trip - hotels, places, driver, and what I want to do the next time I am there",
+          "thread_url": "https://reddit.com/r/bali/comments/1mhiwgi/first_bali_trip_hotels_places_driver_and_what_i/",
+          "subreddit": "bali",
+          "post_score": 31
+        },
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        706,
+        707,
+        746
+      ],
+      "verdict": "A positively received resort chosen particularly for its heated private pool — brief but uniformly good feedback from visitors.",
+      "pros": [
+        "Heated private pool",
+        "Described as a super spot with a warm reception"
+      ],
+      "cons": [],
+      "best_for": [
+        "Pool lovers",
+        "Luxury seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "e09ecf88f40196a8"
+    },
+    {
+      "entity_id": "ubud-coffee-roastery",
+      "entity_normalized": "Ubud Coffee Roastery",
+      "entity_type": "restaurant",
+      "entity_subtype": "cafe",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 100,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1gt7rgy",
+          "thread_title": "Coffee recommendations ",
+          "thread_url": "https://reddit.com/r/bali/comments/1gt7rgy/coffee_recommendations/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        951,
+        952,
+        953
+      ],
+      "verdict": "An unassuming but excellent Ubud roastery — the cortado comes highly recommended by knowledgeable staff, and one visitor returned most days of their stay.",
+      "pros": [
+        "Cortado especially recommended by attentive staff",
+        "Consistent quality that keeps visitors returning daily"
+      ],
+      "cons": [],
+      "best_for": [
+        "Coffee enthusiasts",
+        "Ubud visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "36adde2d34c57162"
+    },
+    {
+      "entity_id": "sacred-monkey-forest",
+      "entity_normalized": "Sacred Monkey Forest",
+      "entity_type": "attraction",
+      "entity_subtype": "nature",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 83,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 17
+      },
+      "recommendation_count": 5,
+      "warning_count": 2,
+      "top_score": 7.17,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "dpmd47",
+          "thread_title": "Non touristy/ hidden gems of Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/dpmd47/non_touristy_hidden_gems_of_bali/",
+          "subreddit": "bali",
+          "post_score": 10
+        },
+        {
+          "thread_id": "1nzv9ip",
+          "thread_title": "Where to stay for best first time experience?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1nzv9ip/where_to_stay_for_best_first_time_experience/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        }
+      ],
+      "mention_ids": [
+        22,
+        84,
+        106,
+        132,
+        180,
+        794
+      ],
+      "verdict": "A widely recommended must-see in Ubud — fascinating and popular, but leave all valuables and bags behind as the monkeys will steal anything they can grab.",
+      "pros": [
+        "A must-see attraction featured on many Ubud hotspot lists",
+        "Widely described as pretty cool and worth visiting"
+      ],
+      "cons": [
+        "Monkeys will steal anything reachable — do not carry bags"
+      ],
+      "best_for": [
+        "Nature lovers",
+        "First-time Bali visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "3bae0a256a007da8"
+    },
+    {
+      "entity_id": "skool",
+      "entity_normalized": "Skool",
+      "entity_type": "restaurant",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 33,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 7.15,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        }
+      ],
+      "mention_ids": [
+        468,
+        469,
+        470
+      ],
+      "verdict": "A recent visitor favourite for excellent food that stands apart from typical Bali menus — not cheap, but generating strong word of mouth.",
+      "pros": [
+        "Excellent food, notably different from typical Bali fare",
+        "A recent trip favourite for its quality"
+      ],
+      "cons": [],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "e68562fd5cdbd324"
+    },
+    {
+      "entity_id": "gili-trawangan",
+      "entity_normalized": "Gili Trawangan",
+      "entity_type": "day_trip",
+      "entity_subtype": "island",
+      "mention_count": 7,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 72,
+        "neutral": 0,
+        "mixed": 14,
+        "negative": 14
+      },
+      "recommendation_count": 3,
+      "warning_count": 2,
+      "top_score": 7.1,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1mhiwgi",
+          "thread_title": "First Bali trip - hotels, places, driver, and what I want to do the next time I am there",
+          "thread_url": "https://reddit.com/r/bali/comments/1mhiwgi/first_bali_trip_hotels_places_driver_and_what_i/",
+          "subreddit": "bali",
+          "post_score": 31
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        210,
+        213,
+        250,
+        251,
+        826,
+        877,
+        906
+      ],
+      "verdict": "A popular motor-free island with plenty of activities and a party vibe — beautiful despite its touristy reputation, though not recommended for snorkelling.",
+      "pros": [
+        "Small enough to cycle around with no motorised vehicles",
+        "Touristy in a good way, with plenty of activities",
+        "Beautiful and loved by repeat visitors"
+      ],
+      "cons": [
+        "Not recommended for snorkelling by one visitor"
+      ],
+      "best_for": [
+        "Party goers",
+        "Cyclists",
+        "Island lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "a254c9a0c74fb923"
+    },
+    {
+      "entity_id": "apurva-kempinski",
+      "entity_normalized": "Apurva Kempinski",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 7,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 71,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 29
+      },
+      "recommendation_count": 3,
+      "warning_count": 2,
+      "top_score": 6.98,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1medprr",
+          "thread_title": "Must Try Eating places in Bali",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1medprr/must_try_eating_places_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1dtf2gx",
+          "thread_title": "Which Hotel To Choose?",
+          "thread_url": "https://reddit.com/r/bali/comments/1dtf2gx/which_hotel_to_choose/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        402,
+        739,
+        740,
+        741,
+        742,
+        743,
+        759
+      ],
+      "verdict": "Highly regarded for great pools, food and high tea, but the enormous scale means it takes ten minutes just to walk to breakfast.",
+      "pros": [
+        "Great pools, food and rooms with private pools available",
+        "High tea highly rated for value and experience",
+        "Koral restaurant described as a cool experience"
+      ],
+      "cons": [
+        "Too large — very long walks between facilities",
+        "Lacks in privacy given the enormous scale"
+      ],
+      "best_for": [
+        "Resort experience seekers",
+        "Pool lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "2a62c266f7afdfb5"
+    },
+    {
+      "entity_id": "arya-wellness-retreat",
+      "entity_normalized": "Arya Wellness Retreat",
+      "entity_type": "hotel",
+      "entity_subtype": "hostel",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 75,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 25
+      },
+      "recommendation_count": 3,
+      "warning_count": 1,
+      "top_score": 6.95,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        },
+        {
+          "thread_id": "1vh4gm3",
+          "thread_title": "Bali hostels, can you get the best of both worlds with a private room?",
+          "thread_url": "https://reddit.com/r/bali/comments/1vh4gm3/bali_hostels_can_you_get_the_best_of_both_worlds/",
+          "subreddit": "bali",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1n8wzig",
+          "thread_title": "Accommodation in Bali for solo travelers",
+          "thread_url": "https://reddit.com/r/bali/comments/1n8wzig/accommodation_in_bali_for_solo_travelers/",
+          "subreddit": "bali",
+          "post_score": 9
+        }
+      ],
+      "mention_ids": [
+        831,
+        832,
+        833,
+        888
+      ],
+      "verdict": "A female-only Ubud hostel loved by guests — one called it the best place she has ever stayed, though a superficial influencer atmosphere is noted by some.",
+      "pros": [
+        "Female-only hostel offering a safe, welcoming space",
+        "Rated by one visitor as favourite place she has ever stayed"
+      ],
+      "cons": [
+        "Some guests report a superficial influencer atmosphere"
+      ],
+      "best_for": [
+        "Solo female travellers",
+        "Wellness seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "daf4c63f6886e90b"
+    },
+    {
+      "entity_id": "four-seasons-jimbaran",
+      "entity_normalized": "Four Seasons Jimbaran",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 75,
+        "neutral": 0,
+        "mixed": 25,
+        "negative": 0
+      },
+      "recommendation_count": 1,
+      "warning_count": 1,
+      "top_score": 6.88,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1nzv9ip",
+          "thread_title": "Where to stay for best first time experience?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1nzv9ip/where_to_stay_for_best_first_time_experience/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        730,
+        731,
+        732,
+        792
+      ],
+      "verdict": "A much-loved resort with a fun beach club — one visitor's all-time favourite resort ever; limited access to authentic Balinese culture is the main caveat.",
+      "pros": [
+        "Rated one visitor's favourite resort ever",
+        "Fun beach club included on property",
+        "Highly praised in combination with Mandapa for a split-stay"
+      ],
+      "cons": [
+        "Culture somewhat sanitised — even excursions lack authenticity"
+      ],
+      "best_for": [
+        "Luxury resort seekers",
+        "Beach club lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "ff938c1cdbb5b5e9"
+    },
+    {
+      "entity_id": "alila-seminyak",
+      "entity_normalized": "Alila Seminyak",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 75,
+        "neutral": 0,
+        "mixed": 25,
+        "negative": 0
+      },
+      "recommendation_count": 3,
+      "warning_count": 2,
+      "top_score": 6.87,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "ymmzsc",
+          "thread_title": "Where was the best resort/villa you stayed at in Seminyak Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/ymmzsc/where_was_the_best_resortvilla_you_stayed_at_in/",
+          "subreddit": "bali",
+          "post_score": 12
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        624,
+        625,
+        810,
+        811
+      ],
+      "verdict": "Proper five-star luxury in Seminyak — beautiful property with a solid reputation, but book beach-facing suites only and check for club noise from next door.",
+      "pros": [
+        "Proper five-star luxury property",
+        "Beautiful rooms with premium finishes"
+      ],
+      "cons": [
+        "Rooms on the Mrs Sippy side get club bass until late at night",
+        "Only beach-facing suites considered worth the price"
+      ],
+      "best_for": [
+        "Luxury travellers",
+        "Seminyak visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "b84c83ea03ad559a"
+    },
+    {
+      "entity_id": "gwk-cultural-park",
+      "entity_normalized": "GWK Cultural Park",
+      "entity_type": "attraction",
+      "entity_subtype": "cultural park",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 3,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 75,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 25
+      },
+      "recommendation_count": 3,
+      "warning_count": 1,
+      "top_score": 6.8,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1mhiwgi",
+          "thread_title": "First Bali trip - hotels, places, driver, and what I want to do the next time I am there",
+          "thread_url": "https://reddit.com/r/bali/comments/1mhiwgi/first_bali_trip_hotels_places_driver_and_what_i/",
+          "subreddit": "bali",
+          "post_score": 31
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        },
+        {
+          "thread_id": "1w6zk29",
+          "thread_title": "Final day in Bali - what would you do?",
+          "thread_url": "https://reddit.com/r/bali/comments/1w6zk29/final_day_in_bali_what_would_you_do/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        121,
+        229,
+        822,
+        823
+      ],
+      "verdict": "A recommended walkable cultural park near Uluwatu — a rare Bali attraction you can actually walk around, though one source dismisses it as a government tourist trap.",
+      "pros": [
+        "A walkable cultural site — genuinely rare in Bali",
+        "On multiple recommended Uluwatu itineraries"
+      ],
+      "cons": [
+        "Described by one visitor as a government-built tourist trap"
+      ],
+      "best_for": [
+        "Cultural day-trippers",
+        "Uluwatu visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "87eba84756c2dae3"
+    },
+    {
+      "entity_id": "tanah-lot",
+      "entity_normalized": "Tanah Lot",
+      "entity_type": "attraction",
+      "entity_subtype": "temple",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 33,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 1,
+      "top_score": 6.76,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        },
+        {
+          "thread_id": "1b06bde",
+          "thread_title": "Best places to visit and things to do in Bali for 12 days?",
+          "thread_url": "https://reddit.com/r/bali/comments/1b06bde/best_places_to_visit_and_things_to_do_in_bali_for/",
+          "subreddit": "bali",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        19,
+        129,
+        204
+      ],
+      "verdict": "A must-see coastal temple strongly recommended for a low-tide visit and a blessing — plan it as a full day trip in its own right.",
+      "pros": [
+        "A must-see temple attraction on many hotspot lists",
+        "Best visited at low tide to walk out and get blessed"
+      ],
+      "cons": [],
+      "best_for": [
+        "Temple visitors",
+        "Cultural sightseers"
+      ],
+      "best_time": "Low tide visit",
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "dac2a513c64c8295"
+    },
+    {
+      "entity_id": "lovina",
+      "entity_normalized": "Lovina",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 1,
+      "top_score": 6.76,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1nm91jl",
+          "thread_title": "Most beautiful Places on the Island?",
+          "thread_url": "https://reddit.com/r/bali/comments/1nm91jl/most_beautiful_places_on_the_island/",
+          "subreddit": "bali",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        },
+        {
+          "thread_id": "1mj9j2g",
+          "thread_title": "Bali Hotel Suggestions Please - Relaxing / Adult Only?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1mj9j2g/bali_hotel_suggestions_please_relaxing_adult_only/",
+          "subreddit": "chubbytravel",
+          "post_score": 2
+        }
+      ],
+      "mention_ids": [
+        147,
+        717,
+        1041
+      ],
+      "verdict": "A quiet northern beach town worth visiting for dolphins and beach relaxation — note there is no Grab or Gojek, and beaches are black sand.",
+      "pros": [
+        "Dolphin-watching opportunity",
+        "Good beach in a quiet, uncrowded setting"
+      ],
+      "cons": [
+        "No Grab or Gojek ride-hailing available"
+      ],
+      "best_for": [
+        "Wildlife watchers",
+        "Quiet beach seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "149eccd706a53a51"
+    },
+    {
+      "entity_id": "locavore",
+      "entity_normalized": "Locavore",
+      "entity_type": "restaurant",
+      "entity_subtype": "fine dining",
+      "mention_count": 5,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 80,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 20
+      },
+      "recommendation_count": 4,
+      "warning_count": 2,
+      "top_score": 6.69,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1medprr",
+          "thread_title": "Must Try Eating places in Bali",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1medprr/must_try_eating_places_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 8
+        }
+      ],
+      "mention_ids": [
+        389,
+        429,
+        430,
+        431,
+        432
+      ],
+      "verdict": "A Michelin-calibre fine dining standout at an impressive price point — book well in advance; some long-time fans report prices have risen and quality dipped.",
+      "pros": [
+        "Outstanding Michelin-calibre meals at a competitive price point",
+        "Consistently placed on Bali fine dining shortlists"
+      ],
+      "cons": [
+        "Book well in advance — slots fill up fast",
+        "One long-time visitor reports prices up and quality down"
+      ],
+      "best_for": [
+        "Fine diners",
+        "Foodie travellers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "2c60fdd53b15104c"
+    },
+    {
+      "entity_id": "la-lucciola",
+      "entity_normalized": "La Lucciola",
+      "entity_type": "restaurant",
+      "entity_subtype": "italian",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 80,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 20
+      },
+      "recommendation_count": 3,
+      "warning_count": 2,
+      "top_score": 6.63,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        329,
+        342,
+        343,
+        344,
+        514
+      ],
+      "verdict": "A chilled, upmarket Italian loved for sunset lunches and a perfect holiday-starting vibe — expensive, no kids menu, but pasta can be arranged for children.",
+      "pros": [
+        "Great lunch or sunset dining spot in Seminyak",
+        "So chilled — described as a perfect way to start a holiday"
+      ],
+      "cons": [
+        "Upmarket with no kids menu, though will arrange kids pasta",
+        "Described as very expensive"
+      ],
+      "best_for": [
+        "Couples",
+        "Sunset diners"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "cc70db2b010ba2fb"
+    },
+    {
+      "entity_id": "warungs",
+      "entity_normalized": "Warungs",
+      "entity_type": "restaurant",
+      "entity_subtype": "warung",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 80,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 20
+      },
+      "recommendation_count": 3,
+      "warning_count": 2,
+      "top_score": 6.63,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1sy7sb0",
+          "thread_title": "Food in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1sy7sb0/food_in_bali/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        363,
+        367,
+        370,
+        371,
+        380
+      ],
+      "verdict": "A safe and tasty bet when the warung is clearly busy with locals — pick packed places; avoid warteg where food has been sitting out all day.",
+      "pros": [
+        "Busy local warungs are reliable — they protect their reputation",
+        "Two weeks of problem-free eating reported by one visitor"
+      ],
+      "cons": [
+        "Avoid warteg where food has sat out all day"
+      ],
+      "best_for": [
+        "Budget travellers",
+        "Local food seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "8783f1bac77ec5fc"
+    },
+    {
+      "entity_id": "capella-ubud",
+      "entity_normalized": "Capella Ubud",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 5,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 80,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 20
+      },
+      "recommendation_count": 1,
+      "warning_count": 1,
+      "top_score": 6.57,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        }
+      ],
+      "mention_ids": [
+        678,
+        679,
+        680,
+        681,
+        713
+      ],
+      "verdict": "A highly praised design-forward jungle retreat that feels uniquely Ubud — a resident's personal favourite, though jungle terrain makes it unsuitable for babies.",
+      "pros": [
+        "Unique design aesthetic and complete retreat experience",
+        "Long-term resident's personal favourite for being one-of-a-kind",
+        "Excellent reputation across multiple visitors"
+      ],
+      "cons": [
+        "Jungle terrain with small paths and steps — not suitable for babies"
+      ],
+      "best_for": [
+        "Design lovers",
+        "Retreat seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "67077d333b19d0bd"
+    },
+    {
+      "entity_id": "chez-gado-gado",
+      "entity_normalized": "Chez Gado Gado",
+      "entity_type": "restaurant",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 0,
+      "top_score": 6.56,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1vwrwu9",
+          "thread_title": "Bali / Seminyak best restaurants",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1vwrwu9/bali_seminyak_best_restaurants/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        339,
+        489,
+        490
+      ],
+      "verdict": "Good vibes and an unbeatable beach location make up for food that is only okay — the setting is clearly the main draw here.",
+      "pros": [
+        "Unbeatable beach location",
+        "Good vibe and decent food for a casual meal"
+      ],
+      "cons": [],
+      "best_for": [
+        "Beach diners",
+        "Casual eaters"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "f0a52c14eed6c75d"
+    },
+    {
+      "entity_id": "gili-islands",
+      "entity_normalized": "Gili Islands",
+      "entity_type": "day_trip",
+      "entity_subtype": "island",
+      "mention_count": 9,
+      "unique_commenters": 9,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 11,
+        "mixed": 0,
+        "negative": 22
+      },
+      "recommendation_count": 4,
+      "warning_count": 2,
+      "top_score": 6.54,
+      "crowd_signal": "quiet",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        }
+      ],
+      "mention_ids": [
+        67,
+        71,
+        161,
+        245,
+        246,
+        615,
+        883,
+        1027,
+        1045
+      ],
+      "verdict": "Beautiful beaches and great snorkelling across three islands, each with its own personality — but the boat journey back is notoriously rough.",
+      "pros": [
+        "Beautiful beaches across three distinct islands",
+        "Three-island snorkelling tour highly recommended",
+        "Much calmer than Bali's main party areas"
+      ],
+      "cons": [
+        "Return boat journey described as traumatic by multiple visitors"
+      ],
+      "best_for": [
+        "Snorkellers",
+        "Beach lovers",
+        "Island hoppers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "040bd66858456bd9"
+    },
+    {
+      "entity_id": "nusa-lembongan",
+      "entity_normalized": "Nusa Lembongan",
+      "entity_type": "day_trip",
+      "entity_subtype": "island",
+      "mention_count": 7,
+      "unique_commenters": 7,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 5,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 71,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 29
+      },
+      "recommendation_count": 5,
+      "warning_count": 3,
+      "top_score": 6.41,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        1,
+        91,
+        159,
+        573,
+        604,
+        605,
+        1003
+      ],
+      "verdict": "A beautiful, easy island escape by boat from Sanur — great for scuba and relaxation, though rip tides and rubbish in the water are real hazards.",
+      "pros": [
+        "Cheap thirty-minute boat ride from Sanur",
+        "Good for scuba diving and laid-back island exploration",
+        "Relaxing off-track destination away from mainland Bali"
+      ],
+      "cons": [
+        "Rip tides require real caution",
+        "Water reportedly full of rubbish, not nice to swim in"
+      ],
+      "best_for": [
+        "Divers",
+        "Island hoppers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "66da2cc10df30edc"
+    },
+    {
+      "entity_id": "pison",
+      "entity_normalized": "Pison",
+      "entity_type": "restaurant",
+      "entity_subtype": "cafe",
+      "mention_count": 3,
+      "unique_commenters": 2,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 1,
+      "top_score": 6.34,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "ygk46w",
+          "thread_title": "Coffee snobs that frequent Bali, where do I go?",
+          "thread_url": "https://reddit.com/r/bali/comments/ygk46w/coffee_snobs_that_frequent_bali_where_do_i_go/",
+          "subreddit": "bali",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1h9m1pg",
+          "thread_title": "Restaurant recommendations?",
+          "thread_url": "https://reddit.com/r/bali/comments/1h9m1pg/restaurant_recommendations/",
+          "subreddit": "bali",
+          "post_score": 4
+        },
+        {
+          "thread_id": "1gt7rgy",
+          "thread_title": "Coffee recommendations ",
+          "thread_url": "https://reddit.com/r/bali/comments/1gt7rgy/coffee_recommendations/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        554,
+        926,
+        927
+      ],
+      "verdict": "A popular Ubud favourite for nitro cold brew and good food — but its reputation means it gets really overcrowded, so time your visit carefully.",
+      "pros": [
+        "Nitro cold brew and good food",
+        "A well-loved Ubud favourite for coffee lovers"
+      ],
+      "cons": [
+        "Gets really overcrowded given its reputation"
+      ],
+      "best_for": [
+        "Coffee enthusiasts",
+        "Ubud visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "c8aed99cca812c3c"
+    },
+    {
+      "entity_id": "bali-restaurants",
+      "entity_normalized": "Bali Restaurants",
+      "entity_type": "restaurant",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 33,
+        "mixed": 0,
+        "negative": 0
+      },
+      "recommendation_count": 0,
+      "warning_count": 1,
+      "top_score": 6.3,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1rhlhwt",
+          "thread_title": "Food in Bali is not just food, it’s art.",
+          "thread_url": "https://reddit.com/r/bali/comments/1rhlhwt/food_in_bali_is_not_just_food_its_art/",
+          "subreddit": "bali",
+          "post_score": 220
+        },
+        {
+          "thread_id": "1og7zuv",
+          "thread_title": "Favourite cafes in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1og7zuv/favourite_cafes_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        418,
+        865,
+        948
+      ],
+      "verdict": "A beautifully presented and diverse scene spanning cuisines from around the world — but thousands of options means online recommendations often disappoint in practice.",
+      "pros": [
+        "Beautifully presented food, delicious across the board",
+        "Global cuisine range from restaurants around the world"
+      ],
+      "cons": [
+        "So many options that online recommendations often lead to disappointment"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "8f3e0e83426781da"
+    },
+    {
+      "entity_id": "nusa-dua",
+      "entity_normalized": "Nusa Dua",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 11,
+      "unique_commenters": 10,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 7,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 3
+      },
+      "sentiment_pct": {
+        "positive": 64,
+        "neutral": 0,
+        "mixed": 9,
+        "negative": 27
+      },
+      "recommendation_count": 7,
+      "warning_count": 5,
+      "top_score": 6.26,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "1mhiwgi",
+          "thread_title": "First Bali trip - hotels, places, driver, and what I want to do the next time I am there",
+          "thread_url": "https://reddit.com/r/bali/comments/1mhiwgi/first_bali_trip_hotels_places_driver_and_what_i/",
+          "subreddit": "bali",
+          "post_score": 31
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        }
+      ],
+      "mention_ids": [
+        155,
+        206,
+        580,
+        587,
+        589,
+        652,
+        723,
+        758,
+        782,
+        824,
+        1039
+      ],
+      "verdict": "A polished, family-friendly resort enclave with good beaches — well-suited to those wanting a curated stay, though it can feel cut off from real Bali.",
+      "pros": [
+        "Resort complex with kids clubs and family facilities",
+        "Some of the best golden sand beaches in the south",
+        "Contained, relaxing enclave with good deals available"
+      ],
+      "cons": [
+        "Little authentic Balinese experience — could be any tropical resort",
+        "Water quality concerns and crowding reported by some visitors"
+      ],
+      "best_for": [
+        "Families",
+        "Resort seekers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "eab5c4497ff42785"
+    },
+    {
+      "entity_id": "ubud",
+      "entity_normalized": "Ubud",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 31,
+      "unique_commenters": 27,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 18,
+        "neutral": 0,
+        "mixed": 7,
+        "negative": 6
+      },
+      "sentiment_pct": {
+        "positive": 58,
+        "neutral": 0,
+        "mixed": 23,
+        "negative": 19
+      },
+      "recommendation_count": 17,
+      "warning_count": 15,
+      "top_score": 6.25,
+      "crowd_signal": "mixed",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        76,
+        83,
+        88,
+        89,
+        93,
+        192,
+        198,
+        201,
+        396,
+        571,
+        584,
+        596,
+        638,
+        639,
+        670,
+        672,
+        779,
+        785,
+        803,
+        809,
+        861,
+        872,
+        873,
+        874,
+        889,
+        896,
+        900,
+        904,
+        943,
+        1010,
+        1046
+      ],
+      "verdict": "Bali's cultural and culinary capital — brilliant for rice terraces, temples, day trips and food, but traffic and crowds have become a significant drag.",
+      "pros": [
+        "Cultural hub: woodcraft, jewellery, local paintings and museums",
+        "Strong food scene with locally sourced cafes",
+        "Best base for day trips, more chill than beach areas",
+        "Jungle villa views and private pools shine here",
+        "Walkable centre with palace, water temple and markets nearby"
+      ],
+      "cons": [
+        "Heavy traffic and tour buses, especially near Monkey Forest",
+        "Crowded and touristy; hard to wind down"
+      ],
+      "best_for": [
+        "Culture seekers",
+        "Foodies",
+        "Day-trip bases"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "high",
+      "enriched_at": "2026-09-08T12:11:09.190Z",
+      "input_hash": "cb7fbe0cf08f1737"
+    },
+    {
+      "entity_id": "street-food",
+      "entity_normalized": "Street Food",
+      "entity_type": "restaurant",
+      "entity_subtype": "street food",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 4,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 33
+      },
+      "recommendation_count": 2,
+      "warning_count": 2,
+      "top_score": 6.18,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        },
+        {
+          "thread_id": "1sy7sb0",
+          "thread_title": "Food in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1sy7sb0/food_in_bali/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        55,
+        364,
+        368,
+        369,
+        375,
+        382
+      ],
+      "verdict": "A mixed picture — months of problem-free eating reported by some, while others warn of hospitalisation; choosing busy stalls is the most consistent safety tip.",
+      "pros": [
+        "Cheaper, tastier and often safer than average western restaurants",
+        "Long trouble-free eating runs reported by careful visitors"
+      ],
+      "cons": [
+        "Lack of refrigeration and hygiene at some vendors raises risk",
+        "Illness reported even from seemingly safe stalls"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "be0cce10e9abd6fc"
+    },
+    {
+      "entity_id": "rock-bar",
+      "entity_normalized": "Rock Bar",
+      "entity_type": "restaurant",
+      "entity_subtype": "bar",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 0
+      },
+      "recommendation_count": 1,
+      "warning_count": 1,
+      "top_score": 6.11,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1ovk6po",
+          "thread_title": "Must do things in bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ovk6po/must_do_things_in_bali/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 5
+        }
+      ],
+      "mention_ids": [
+        120,
+        444,
+        445
+      ],
+      "verdict": "An iconic Bali sunset bar with great food and cocktails — the view is stunning, but it gets very busy with picture-takers.",
+      "pros": [
+        "Amazing sunset views from a unique clifftop setting",
+        "Good food and cocktails"
+      ],
+      "cons": [
+        "Very busy with picture-takers, detracting from the atmosphere"
+      ],
+      "best_for": [
+        "Sunset seekers",
+        "Cocktail lovers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "46a0656fe10c7482"
+    },
+    {
+      "entity_id": "nusa-penida",
+      "entity_normalized": "Nusa Penida",
+      "entity_type": "day_trip",
+      "entity_subtype": "island",
+      "mention_count": 11,
+      "unique_commenters": 11,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 7,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 4
+      },
+      "sentiment_pct": {
+        "positive": 64,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 36
+      },
+      "recommendation_count": 6,
+      "warning_count": 5,
+      "top_score": 6.06,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        32,
+        33,
+        95,
+        102,
+        200,
+        377,
+        607,
+        651,
+        891,
+        999,
+        1008
+      ],
+      "verdict": "Visually stunning and excellent for snorkelling, but severe overcrowding has diminished the magic and food safety incidents are a real risk for visitors.",
+      "pros": [
+        "Gorgeous scenery — described as another world",
+        "Great snorkelling with easy ferry access from the mainland",
+        "Prettier than Lembongan by most accounts"
+      ],
+      "cons": [
+        "Extremely crowded — once-hidden gem now overrun with tourists",
+        "Serious food safety incidents reported by visitors"
+      ],
+      "best_for": [
+        "Snorkellers",
+        "Island day-trippers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "4c2064865efccc0b"
+    },
+    {
+      "entity_id": "raffles-jimbaran",
+      "entity_normalized": "Raffles Jimbaran",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 50,
+        "neutral": 0,
+        "mixed": 25,
+        "negative": 25
+      },
+      "recommendation_count": 2,
+      "warning_count": 1,
+      "top_score": 5.64,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        }
+      ],
+      "mention_ids": [
+        630,
+        675,
+        676,
+        677
+      ],
+      "verdict": "Opinions are genuinely split — recommended as a top coastal pick by some while at least one visitor says to skip it; not universally considered special.",
+      "pros": [
+        "Picked as a top coastal accommodation by more than one visitor"
+      ],
+      "cons": [
+        "One visitor says to skip it entirely",
+        "Not considered super special by another reviewer"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "dd1fc27f05666149"
+    },
+    {
+      "entity_id": "alila-villas-uluwatu",
+      "entity_normalized": "Alila Villas Uluwatu",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 3,
+        "negative": 0
+      },
+      "sentiment_pct": {
+        "positive": 40,
+        "neutral": 0,
+        "mixed": 60,
+        "negative": 0
+      },
+      "recommendation_count": 2,
+      "warning_count": 3,
+      "top_score": 5.5,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1dtf2gx",
+          "thread_title": "Which Hotel To Choose?",
+          "thread_url": "https://reddit.com/r/bali/comments/1dtf2gx/which_hotel_to_choose/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        693,
+        733,
+        734,
+        768,
+        769
+      ],
+      "verdict": "Stunning views and an all-villa layout draw strong interest, but the large scale led to impersonal service and the nightly rate is around 700 dollars.",
+      "pros": [
+        "All-villa property with beautiful panoramic views",
+        "No bad reviews cited by recommenders"
+      ],
+      "cons": [
+        "Service felt impersonal given the large scale",
+        "Very expensive — around 700 dollars a night"
+      ],
+      "best_for": [
+        "Luxury villa seekers",
+        "View chasers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "0a2ffb31b9a12fe2"
+    },
+    {
+      "entity_id": "seminyak",
+      "entity_normalized": "Seminyak",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 13,
+      "unique_commenters": 13,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 7,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 5
+      },
+      "sentiment_pct": {
+        "positive": 54,
+        "neutral": 0,
+        "mixed": 8,
+        "negative": 38
+      },
+      "recommendation_count": 6,
+      "warning_count": 6,
+      "top_score": 5.31,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        12,
+        45,
+        82,
+        191,
+        330,
+        331,
+        574,
+        592,
+        613,
+        718,
+        902,
+        1017,
+        1018
+      ],
+      "verdict": "Upscale beach clubs and quality dining make Seminyak appealing, but beaches lag behind Uluwatu and traffic can turn a ten-minute ride into an hour.",
+      "pros": [
+        "Beach clubs and beautiful sunset views",
+        "Excellent dining density — quality restaurants steps away",
+        "Luxurious vibe with boutique shops, galleries and top beach clubs"
+      ],
+      "cons": [
+        "Beaches not the nicest compared to other areas",
+        "Traffic severely unpredictable; very overcrowded"
+      ],
+      "best_for": [
+        "Beach club lovers",
+        "Foodies",
+        "Luxury travellers"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "ee6f3c7db8639af3"
+    },
+    {
+      "entity_id": "four-seasons-sayan",
+      "entity_normalized": "Four Seasons Sayan",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 67,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 33
+      },
+      "recommendation_count": 2,
+      "warning_count": 1,
+      "top_score": 4.96,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1s9crny",
+          "thread_title": "Best resort Bali for proper luxury experience?",
+          "thread_url": "https://reddit.com/r/chubbytravel/comments/1s9crny/best_resort_bali_for_proper_luxury_experience/",
+          "subreddit": "chubbytravel",
+          "post_score": 13
+        },
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        }
+      ],
+      "mention_ids": [
+        700,
+        715,
+        749
+      ],
+      "verdict": "A well-regarded Ubud resort recommended by some, but villas only — and at least one traveller rates it far inferior to Mandapa in many respects.",
+      "pros": [
+        "Recommended as a top Ubud resort pick by multiple visitors",
+        "Villas especially praised"
+      ],
+      "cons": [
+        "Rated far inferior to Mandapa by one visitor"
+      ],
+      "best_for": [
+        "Luxury travellers",
+        "Ubud visitors"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "eafeb3a4ea241ffb"
+    },
+    {
+      "entity_id": "merlin-s-magic",
+      "entity_normalized": "Merlin's Magic",
+      "entity_type": "restaurant",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 34,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 33
+      },
+      "recommendation_count": 1,
+      "warning_count": 1,
+      "top_score": 4.85,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        },
+        {
+          "thread_id": "1h9m1pg",
+          "thread_title": "Restaurant recommendations?",
+          "thread_url": "https://reddit.com/r/bali/comments/1h9m1pg/restaurant_recommendations/",
+          "subreddit": "bali",
+          "post_score": 4
+        },
+        {
+          "thread_id": "1s8vxdb",
+          "thread_title": "Best restaurants!🌮🥗🥟🍤",
+          "thread_url": "https://reddit.com/r/bali/comments/1s8vxdb/best_restaurants/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        316,
+        454,
+        455
+      ],
+      "verdict": "Phenomenal cocktails but food gets a mixed-to-negative reception — popular with tourists yet leaving more than one visitor disappointed on the food front.",
+      "pros": [
+        "Cocktails described as phenomenal"
+      ],
+      "cons": [
+        "Food not good despite an appealing look",
+        "Disappointing to visitors who come specifically for the food"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "4819e1ae856f50ef"
+    },
+    {
+      "entity_id": "bali-beaches",
+      "entity_normalized": "Bali Beaches",
+      "entity_type": "attraction",
+      "entity_subtype": "beach",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 1,
+        "negative": 1
+      },
+      "sentiment_pct": {
+        "positive": 34,
+        "neutral": 0,
+        "mixed": 33,
+        "negative": 33
+      },
+      "recommendation_count": 0,
+      "warning_count": 1,
+      "top_score": 4.61,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1iri4mp",
+          "thread_title": "What do you usually do in Bali?",
+          "thread_url": "https://reddit.com/r/travel/comments/1iri4mp/what_do_you_usually_do_in_bali/",
+          "subreddit": "travel",
+          "post_score": 7
+        },
+        {
+          "thread_id": "1ukkxas",
+          "thread_title": "Luxury Hotel Recommendations",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1ukkxas/luxury_hotel_recommendations/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 3
+        },
+        {
+          "thread_id": "1py00du",
+          "thread_title": "Bali - where to stay &amp; what to avoid?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1py00du/bali_where_to_stay_what_to_avoid/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 2
+        }
+      ],
+      "mention_ids": [
+        99,
+        572,
+        635
+      ],
+      "verdict": "A mixed picture — constant harassment is one complaint, but one visitor found them reasonably clean on a long walk; not amazing overall.",
+      "pros": [
+        "One visitor found them reasonably clean on a Canggu-to-Kuta walk"
+      ],
+      "cons": [
+        "Constant harassment reported by visitors",
+        "Not amazing in general opinion"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "97fa429c3eff5504"
+    },
+    {
+      "entity_id": "the-ritz-carlton-bali",
+      "entity_normalized": "The Ritz-Carlton Bali",
+      "entity_type": "hotel",
+      "entity_subtype": "resort",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 2
+      },
+      "sentiment_pct": {
+        "positive": 33,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 67
+      },
+      "recommendation_count": 0,
+      "warning_count": 2,
+      "top_score": 3.46,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1nf0by4",
+          "thread_title": "Hotel Recommendations in Bali",
+          "thread_url": "https://reddit.com/r/FATTravel/comments/1nf0by4/hotel_recommendations_in_bali/",
+          "subreddit": "FATTravel",
+          "post_score": 6
+        },
+        {
+          "thread_id": "1dtf2gx",
+          "thread_title": "Which Hotel To Choose?",
+          "thread_url": "https://reddit.com/r/bali/comments/1dtf2gx/which_hotel_to_choose/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        736,
+        737,
+        738
+      ],
+      "verdict": "Mostly dismissed as outdated and lacking a true luxury feel — good staff and lobby views noted by one visitor, but dining falls short of expectations.",
+      "pros": [
+        "Great staff and pleasant lobby views per one visitor"
+      ],
+      "cons": [
+        "Described as outdated",
+        "Dining lacks a genuine luxe feel"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "00bff839cfc691b2"
+    },
+    {
+      "entity_id": "south-bali",
+      "entity_normalized": "South Bali",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 3,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 0,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 3
+      },
+      "sentiment_pct": {
+        "positive": 0,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 100
+      },
+      "recommendation_count": 0,
+      "warning_count": 3,
+      "top_score": 2.69,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1cyo9iu",
+          "thread_title": "Places to Visit and Avoid in Bali",
+          "thread_url": "https://reddit.com/r/travel/comments/1cyo9iu/places_to_visit_and_avoid_in_bali/",
+          "subreddit": "travel",
+          "post_score": 4
+        }
+      ],
+      "mention_ids": [
+        612,
+        855,
+        1002
+      ],
+      "verdict": "Uniformly condemned — heavily westernised, overcrowded with party tourists and sexpats, plus severe traffic and overpriced everything throughout.",
+      "pros": [],
+      "cons": [
+        "Full of party tourists, sexpats and overpriced everything",
+        "Super westernised and dominated by drunk behaviour",
+        "Oppressive traffic and congestion throughout the area"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "low",
+      "enriched_at": "2026-09-08T12:11:09.196Z",
+      "input_hash": "a02693334c4ddb7b"
+    },
+    {
+      "entity_id": "balinese-food",
+      "entity_normalized": "Balinese Food",
+      "entity_type": "restaurant",
+      "entity_subtype": "balinese",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 3
+      },
+      "sentiment_pct": {
+        "positive": 25,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 75
+      },
+      "recommendation_count": 0,
+      "warning_count": 3,
+      "top_score": 2.65,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1rhlhwt",
+          "thread_title": "Food in Bali is not just food, it’s art.",
+          "thread_url": "https://reddit.com/r/bali/comments/1rhlhwt/food_in_bali_is_not_just_food_its_art/",
+          "subreddit": "bali",
+          "post_score": 220
+        },
+        {
+          "thread_id": "1lbhxb8",
+          "thread_title": "Must try local dishes in Bali!",
+          "thread_url": "https://reddit.com/r/bali/comments/1lbhxb8/must_try_local_dishes_in_bali/",
+          "subreddit": "bali",
+          "post_score": 20
+        }
+      ],
+      "mention_ids": [
+        419,
+        550,
+        863,
+        864
+      ],
+      "verdict": "Divisive — one visitor loves it and needs no fancy restaurants, but most warn the spice-and-herb profile can upset stomachs and falls short of regional peers.",
+      "pros": [
+        "Really good and satisfying without needing western alternatives"
+      ],
+      "cons": [
+        "Spice and herb profile can upset sensitive stomachs",
+        "Widely considered weaker than Thai or Vietnamese equivalents"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "03a61f180c897fe1"
+    },
+    {
+      "entity_id": "cuca",
+      "entity_normalized": "Cuca",
+      "entity_type": "restaurant",
+      "entity_subtype": "fine dining",
+      "mention_count": 4,
+      "unique_commenters": 3,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 3
+      },
+      "sentiment_pct": {
+        "positive": 25,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 75
+      },
+      "recommendation_count": 1,
+      "warning_count": 3,
+      "top_score": 2.52,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "15ytq0j",
+          "thread_title": "Best Resturaunts in Bali?",
+          "thread_url": "https://reddit.com/r/bali/comments/15ytq0j/best_resturaunts_in_bali/",
+          "subreddit": "bali",
+          "post_score": 30
+        }
+      ],
+      "mention_ids": [
+        423,
+        424,
+        425,
+        426
+      ],
+      "verdict": "Mostly rejected — strong negative reactions describe it as fancy-looking but deeply underwhelming in taste; only one voice includes it on a fine dining list.",
+      "pros": [
+        "Listed on one fine dining itinerary"
+      ],
+      "cons": [
+        "Taste described as so-so despite the upscale appearance",
+        "Multiple visitors say to avoid it entirely"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "b944291925c488af"
+    },
+    {
+      "entity_id": "western-restaurants",
+      "entity_normalized": "Western Restaurants",
+      "entity_type": "restaurant",
+      "entity_subtype": "western",
+      "mention_count": 4,
+      "unique_commenters": 4,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 3
+      },
+      "sentiment_pct": {
+        "positive": 25,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 75
+      },
+      "recommendation_count": 0,
+      "warning_count": 3,
+      "top_score": 2.31,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1lbhxb8",
+          "thread_title": "Must try local dishes in Bali!",
+          "thread_url": "https://reddit.com/r/bali/comments/1lbhxb8/must_try_local_dishes_in_bali/",
+          "subreddit": "bali",
+          "post_score": 20
+        },
+        {
+          "thread_id": "1sy7sb0",
+          "thread_title": "Food in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1sy7sb0/food_in_bali/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        376,
+        378,
+        383,
+        551
+      ],
+      "verdict": "Repeatedly linked to food-illness incidents — multiple visitors got sick from western-style dining, including upscale and Australian-style spots; fried chicken is the one bright spot.",
+      "pros": [
+        "Fried chicken in Bali noted as very good by one visitor"
+      ],
+      "cons": [
+        "Multiple illness incidents traced to western restaurants including upscale ones",
+        "High-end Mexican and Aussie-style places caused serious sickness"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "b82fd727ec5cd2e5"
+    },
+    {
+      "entity_id": "kopi-luwak",
+      "entity_normalized": "Kopi Luwak",
+      "entity_type": "shop",
+      "entity_subtype": "coffee",
+      "mention_count": 5,
+      "unique_commenters": 5,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 0,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 5
+      },
+      "sentiment_pct": {
+        "positive": 0,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 100
+      },
+      "recommendation_count": 0,
+      "warning_count": 5,
+      "top_score": 2.01,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1mvpgy8",
+          "thread_title": "Coffees to buy in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1mvpgy8/coffees_to_buy_in_bali/",
+          "subreddit": "bali",
+          "post_score": 8
+        },
+        {
+          "thread_id": "1fikzxm",
+          "thread_title": "Suggestion for Bali coffee plantation tour",
+          "thread_url": "https://reddit.com/r/JamesHoffmann/comments/1fikzxm/suggestion_for_bali_coffee_plantation_tour/",
+          "subreddit": "JamesHoffmann",
+          "post_score": 2
+        },
+        {
+          "thread_id": "1gt7rgy",
+          "thread_title": "Coffee recommendations ",
+          "thread_url": "https://reddit.com/r/bali/comments/1gt7rgy/coffee_recommendations/",
+          "subreddit": "bali",
+          "post_score": 1
+        }
+      ],
+      "mention_ids": [
+        915,
+        916,
+        917,
+        918,
+        919
+      ],
+      "verdict": "Universally condemned — an unethical tourist trap involving animal cruelty, sold at ridiculous prices with no way to verify authenticity; skip it entirely.",
+      "pros": [],
+      "cons": [
+        "Animal cruelty involved in production",
+        "Impossible to verify authentic product from fake",
+        "Tourist gimmick with poor taste sold at ridiculous prices"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.194Z",
+      "input_hash": "9dba3f9d000b6133"
+    },
+    {
+      "entity_id": "bali-belly",
+      "entity_normalized": "Bali Belly",
+      "entity_type": "experience",
+      "entity_subtype": "health",
+      "mention_count": 6,
+      "unique_commenters": 6,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 4
+      },
+      "sentiment_pct": {
+        "positive": 17,
+        "neutral": 17,
+        "mixed": 0,
+        "negative": 66
+      },
+      "recommendation_count": 0,
+      "warning_count": 4,
+      "top_score": 1.95,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1r61lcs",
+          "thread_title": "What’s one mistake you should absolutely avoid on your first trip to Bali?",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r61lcs/whats_one_mistake_you_should_absolutely_avoid_on/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 24
+        },
+        {
+          "thread_id": "1sy7sb0",
+          "thread_title": "Food in Bali",
+          "thread_url": "https://reddit.com/r/bali/comments/1sy7sb0/food_in_bali/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        362,
+        365,
+        366,
+        372,
+        614,
+        980
+      ],
+      "verdict": "A real and widely reported risk even at five-star restaurants — a long-term resident calls it luck of the draw rather than a venue-dependent problem.",
+      "pros": [
+        "Touching menus and condiments cited as riskier than the food itself"
+      ],
+      "cons": [
+        "Even upscale and five-star restaurants have left visitors seriously ill",
+        "Street vendor food can have severe consequences without local immunity",
+        "Worst experiences reported mid-flight on the way home"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.192Z",
+      "input_hash": "1cc1a0ec2e9f8107"
+    },
+    {
+      "entity_id": "kuta",
+      "entity_normalized": "Kuta",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 10,
+      "unique_commenters": 10,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 1,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 9
+      },
+      "sentiment_pct": {
+        "positive": 10,
+        "neutral": 0,
+        "mixed": 0,
+        "negative": 90
+      },
+      "recommendation_count": 1,
+      "warning_count": 8,
+      "top_score": 1,
+      "crowd_signal": null,
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        },
+        {
+          "thread_id": "1lz0axf",
+          "thread_title": "First time Bali trip next month ,any local tips or hidden gems you'd recommend?",
+          "thread_url": "https://reddit.com/r/bali/comments/1lz0axf/first_time_bali_trip_next_month_any_local_tips_or/",
+          "subreddit": "bali",
+          "post_score": 19
+        }
+      ],
+      "mention_ids": [
+        13,
+        63,
+        103,
+        583,
+        591,
+        600,
+        866,
+        867,
+        894,
+        1026
+      ],
+      "verdict": "Widely loathed — dirty, scammy and eroding; the beach is poor, traffic awful and the area broadly described as a tourist trap with a crimey reputation.",
+      "pros": [
+        "Some good hotels on a long footpath with lively restaurants behind"
+      ],
+      "cons": [
+        "Dirty, scammy beach with ongoing erosion",
+        "Heavy traffic and reportedly criminal in spots",
+        "Generic Australian party-town atmosphere with no Balinese culture"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.191Z",
+      "input_hash": "cf7962331ad8cb3e"
+    },
+    {
+      "entity_id": "bali",
+      "entity_normalized": "Bali",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 14,
+      "unique_commenters": 14,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 2,
+        "neutral": 1,
+        "mixed": 0,
+        "negative": 11
+      },
+      "sentiment_pct": {
+        "positive": 14,
+        "neutral": 7,
+        "mixed": 0,
+        "negative": 79
+      },
+      "recommendation_count": 1,
+      "warning_count": 11,
+      "top_score": 0.48,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1r4f1tl",
+          "thread_title": "What NOT to do in Bali if you actually want a good trip",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1r4f1tl/what_not_to_do_in_bali_if_you_actually_want_a/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 185
+        },
+        {
+          "thread_id": "1u5j8qs",
+          "thread_title": "What do you do in Bali?",
+          "thread_url": "https://reddit.com/r/AskAnAustralian/comments/1u5j8qs/what_do_you_do_in_bali/",
+          "subreddit": "AskAnAustralian",
+          "post_score": 29
+        }
+      ],
+      "mention_ids": [
+        163,
+        165,
+        166,
+        167,
+        193,
+        381,
+        617,
+        858,
+        868,
+        870,
+        871,
+        879,
+        882,
+        995
+      ],
+      "verdict": "Heavily warned against by experienced visitors — horrendous traffic, near-toxic air, trashed beaches and rampant grifters; only the northern part is widely excepted.",
+      "pros": [
+        "Tons to offer away from the main tourist areas",
+        "Good cafe culture if you seek it out"
+      ],
+      "cons": [
+        "Horrendous traffic and near-toxic air quality",
+        "Overcrowded, trashed beaches and tourist prices everywhere",
+        "Serious concerns about grifters and police bias against expats"
+      ],
+      "best_for": [],
+      "best_time": null,
+      "enrichment_confidence": "medium",
+      "enriched_at": "2026-09-08T12:11:09.190Z",
+      "input_hash": "625a3328771d36f5"
+    },
+    {
+      "entity_id": "canggu",
+      "entity_normalized": "Canggu",
+      "entity_type": "neighborhood",
+      "entity_subtype": "",
+      "mention_count": 32,
+      "unique_commenters": 29,
+      "eligible_for_ranking": true,
+      "sentiment_counts": {
+        "positive": 6,
+        "neutral": 1,
+        "mixed": 1,
+        "negative": 24
+      },
+      "sentiment_pct": {
+        "positive": 19,
+        "neutral": 3,
+        "mixed": 3,
+        "negative": 75
+      },
+      "recommendation_count": 4,
+      "warning_count": 23,
+      "top_score": 0.16,
+      "crowd_signal": "busy",
+      "source_threads": [
+        {
+          "thread_id": "1f7xy1w",
+          "thread_title": "I should have listened to you guys- Bali is not worth it.",
+          "thread_url": "https://reddit.com/r/digitalnomad/comments/1f7xy1w/i_should_have_listened_to_you_guys_bali_is_not/",
+          "subreddit": "digitalnomad",
+          "post_score": 848
+        },
+        {
+          "thread_id": "1opwn6e",
+          "thread_title": "Trying to pick where to stay in Bali? Here’s what some of the main areas actually feel like",
+          "thread_url": "https://reddit.com/r/BaliTravelTips/comments/1opwn6e/trying_to_pick_where_to_stay_in_bali_heres_what/",
+          "subreddit": "BaliTravelTips",
+          "post_score": 156
+        },
+        {
+          "thread_id": "13zpu0i",
+          "thread_title": "Social hostels in Bali that aren’t party-focused?",
+          "thread_url": "https://reddit.com/r/TravelHacks/comments/13zpu0i/social_hostels_in_bali_that_arent_partyfocused/",
+          "subreddit": "TravelHacks",
+          "post_score": 25
+        }
+      ],
+      "mention_ids": [
+        46,
+        51,
+        64,
+        68,
+        81,
+        111,
+        112,
+        177,
+        178,
+        179,
+        188,
+        190,
+        254,
+        650,
+        654,
+        850,
+        859,
+        860,
+        887,
+        903,
+        997,
+        1000,
+        1001,
+        1005,
+        1007,
+        1013,
+        1019,
+        1025,
+        1029,
+        1030,
+        1042,
+        1043
+      ],
+      "verdict": "A divisive party enclave overwhelmingly warned against — overcrowded, trash-strewn beaches, zero culture and influencer-overrun; worth it only if non-stop partying is the sole goal.",
+      "pros": [
+        "Active surf, party and cafe scene with quality warungs",
+        "Gym and wellness scene available",
+        "Fast and cheap ride-hailing with Grab and Gojek"
+      ],
+      "cons": [
+        "Extremely overcrowded with severe unpredictable traffic",
+        "Beaches dirty and mostly poor for swimming",
+        "No Balinese culture; made for and by westerners",
+        "Full of influencers and expats; solo travellers warned off"
+      ],
+      "best_for": [
+        "Surfers and party-goers",
+        "Digital nomads"
+      ],
+      "best_time": null,
+      "enrichment_confidence": "high",
+      "enriched_at": "2026-09-08T12:11:09.190Z",
+      "input_hash": "f4234b6c7c0d80bb"
+    }
+  ]
+}
